@@ -1,0 +1,275 @@
+
+/*EDUCATION CSS*/
+
+.banner_edu {
+    margin: auto;
+    text-align: center;
+    width: 400px;    
+}
+
+.banner_edu img {
+    width: 1100px;
+    height: auto;
+    margin-bottom: 30px;
+        
+}
+
+.banner_edu p {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 100px;
+}
+
+#image_mbs {
+    margin: auto;
+    width: 400px;
+}
+
+.kotak_grey {
+    width: 390px;
+    height: 300px;
+    background-color: #e6e6e6;
+    box-shadow: 5px 10px 18px #888888;
+    padding: 50px;
+    padding-top: 50px;
+    margin-left: 1%;
+    
+}
+
+.kotak_grey h2 {
+    font-family: 'avenir-black';
+    color: #f26529;
+}
+
+.wow.fadeInUp.main_text {
+    width: 250px;
+    border-bottom: 5px solid #808080;
+    
+}
+
+#mbs {
+    width: 350px;
+    float: right;
+    margin-right: 5%;
+    margin-left: 0;
+    margin-top: -8%;
+    margin-bottom: 50px;
+}
+
+.wow.zoomIn.mbs_text {
+    margin-top: 170px;
+    margin-bottom: 70px;
+}
+
+
+.wow.fadeInUp.toc_mainText {
+    font-family: 'avenir';
+    color: #f26529;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container.nutrition {
+    width: 80%;
+    padding: 10px;
+    margin: 10px auto;
+    display: contents;
+	justify-content: center;
+}
+
+.wow.slideInUp.box {
+    width: 360px; 
+    height: 420px;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background: #e6e6e6;
+    margin: 0px 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 10px 18px #888888;
+    transition: transform .0s;
+}
+  
+    
+.wow.slideInUp.box:hover {
+    transform: scale(1.1);
+    
+    -ms-transform: scale(1.1);
+    
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+}
+
+.fa.fa-lightbulb-o {
+    font-size: 80px;
+    color: #f26529;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.fa.fa-cubes{
+    font-size: 80px;
+    color: #f26529;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.fa.fa-line-chart{
+    font-size: 80px;
+    color: #f26529;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.fa.fa-trophy{
+    font-size: 80px;
+    color: #f26529;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.fa.fa-users{
+    font-size: 80px;
+    color: #f26529;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 568px){
+    
+   .banner_edu {
+    margin: auto;
+    text-align: center;
+    width: 1200px;    
+}
+
+    .banner_edu img {
+        width: 1100px;
+        height: auto;
+        margin-bottom: 30px;
+
+    }
+
+    .banner_edu p {
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 100px;
+    }
+
+    #image_mbs {
+        margin: auto;
+        width: 1200px;
+    }
+
+    .kotak_grey {
+        width: 600px;
+        height: 450px;
+        background-color: #e6e6e6;
+        box-shadow: 5px 10px 18px #888888;
+        padding: 50px;
+        padding-top: 100px;
+        margin-left: 12%;
+
+    }
+
+    .kotak_grey h2 {
+        font-family: 'avenir-black';
+        color: #f26529;
+    }
+
+
+    #mbs {
+        width: 600px;
+        float: right;
+        margin-right: 12%;
+        margin-top: -30%;
+        margin-bottom: 50px;
+    }
+
+    .wow.zoomIn.mbs_text {
+        margin-top: 170px;
+        margin-bottom: 70px;
+    }
+
+    .container.nutrition {
+        width: 80%;
+        padding: 10px;
+        margin: 10px auto;
+        display: flex;
+    }
+
+    .wow.slideInUp.box {
+        width: 240px; 
+        height: 530px;
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+        background: #e6e6e6;
+        margin: 0px 20px;
+        box-shadow: 5px 10px 18px #888888;
+        transition: transform .0s;
+    }
+  
+    
+    .wow.slideInUp.box:hover {
+        transform: scale(1.1);
+
+        -ms-transform: scale(1.1);
+
+        -webkit-transform: scale(1.1); /* Safari 3-8 */
+    }
+
+    .fa.fa-cubes {
+        font-size: 80px;
+        color: #f26529;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .fa.fa-cogs{
+        font-size: 80px;
+        color: #f26529;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .fa.fa-handshake-o{
+        font-size: 80px;
+        color: #f26529;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .fa.fa-thumbs-o-up{
+        font-size: 80px;
+        color: #f26529;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .fa.fa-users{
+        font-size: 80px;
+        color: #f26529;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    
+    
+}
+
+
+
+
+
+/*END CONTENT ABOUT US*/
+
+
+
+
+
+
+
+
+
+    

@@ -1,0 +1,921 @@
+body{
+    background: #cccccc;
+    padding: 0;
+	font-family: 'avenir';
+}
+
+h6{
+    margin-bottom: 7px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+   
+}
+
+.container-fluid .checkbox-btn{
+    position: absolute;
+    top: 6%;
+    left: 70%;
+    transform: translate(-6%,-90%);
+    width: 120px;
+    height: 30px;
+}
+
+.container-fluid .checkbox-btn input{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+    cursor: pointer;
+    opacity: 0;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+
+.container-fluid .checkbox-btn div{
+    position: absolute;    
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border: 4px solid #808080;
+    border-radius: 4px;
+}
+
+.container-fluid .checkbox-btn div .slide{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 65px;
+    height: 50px;
+    background: #808080;
+    transition: .4s;
+}
+
+.container-fluid .checkbox-btn input:checked + div .slide{
+    transform: translateX(60px);
+}
+
+.container-fluid .checkbox-btn .slide:before {
+    content: 'ENG';
+    position: absolute;
+    top: 0;
+    left: -60px;
+    text-align: center;
+    width: 60px;
+    height: 100%;
+    line-height: 25px;
+    background: #e6e6e6;
+    font-weight: bold;
+    color: #f26529;
+    font-family: 'avenir';
+}
+
+.container-fluid .checkbox-btn .slide:after {
+    content: 'INA';
+    position: absolute;
+    top: 0;
+    right: -60px;
+    text-align: center;
+    width: 70px;
+    height: 100%;
+    line-height: 25px;
+    background: #f26529;
+    font-weight: bold;
+    color: white;
+    font-family: 'avenir';
+}
+
+
+@media (min-width: 568px){
+    
+    body{
+        background: #cccccc;
+        padding: 0;
+}
+    
+    .container-fluid .checkbox-btn{
+		position: absolute;
+		top: 4%;
+		left: 90%;
+		transform: translate(-6%,-90%);
+		width: 120px;
+		height: 30px;
+}
+    
+    h6{
+		margin-bottom: 30px;
+		padding-top: 0px;
+		padding-bottom: 10px;
+		margin-left: 110%;
+		font-family: 'avenir';
+		font-weight: bold;
+}
+}
+
+
+
+
+
+/*Navbar*/
+
+
+#navbarNavDropdown{
+    margin-left: 40px;
+}
+
+.navbar{
+    font-size: 12px;
+    margin-bottom: 20px;
+    transition: .5s;
+    transition-duration: 0.5s, 0.5s, 0.5s;
+    transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition-delay: 0s, 0s, 0s;
+    position: sticky;
+    z-index: 1; 
+	
+}
+
+.dropdown-menu{
+	font-family: 'avenir';
+	font-size: 12px;
+}
+
+.navbar.hide
+{
+    transform: translateY(-100%)
+}
+
+
+
+
+/* DESKTOP VERSION*/
+
+@media (min-width: 568px) {
+    
+    #navbarNavDropdown{
+        margin-left: 40px;
+}
+    
+    .nav-link{
+        text-transform: uppercase;
+        font-family: 'avenir-medium';
+        margin-left: 20px;
+        margin-right: auto;
+        color: white;
+        font-size: 14px;
+        float: left;
+    }    
+
+    
+    .carousel{
+        margin-top: 20px;
+    }
+    
+    .container-fluid, .img-responsive-img-qr-code{
+        width: 50%;
+    }
+    
+    
+    .jumbotron, jumbotron-fluid{
+        height: 500px;
+    }
+    
+    .col{
+        text-transform: uppercase;
+    }
+    
+    .row mx-md-n5, .col px-md-5, #logo-header{
+        width: 190px;
+    }
+    
+    
+    
+
+}
+
+
+
+/*about us*/
+
+.col-md h3{
+    font-family: 'avenir-medium';
+    color: #f26529;
+    margin-top: 100px;
+    margin-left: 10%;
+}
+.col-md>p{
+    font-family: 'avenir';
+    float: left;
+    margin-left: 2%;
+}
+
+.btn{
+    font-family: 'avenir-medium';
+    color: white;
+    background-color:  #f26529;
+    margin-left: 2%;
+    
+}
+.col-md img{
+    float: right;
+    margin-top: 100px;
+}
+
+
+@media (min-width: 568px){
+    
+    .col-md h3{
+        font-family: 'avenir-medium';
+        color: #f26529;
+        margin-top: 100px;
+        margin-left: 0;
+    }
+    
+    .col-md>p{
+        font-family: 'avenir';
+        float: left;
+        margin-left: 0;
+    }
+    
+    .btn{
+        font-family: 'avenir-medium';
+        color: white;
+        background-color:  #f26529;
+        margin-left: 0;
+    
+}
+    
+}
+
+/*banner*/
+
+.container-carousel{
+    width: 100%;
+    height: auto;
+    
+}
+
+.carousel-item{
+    width: 100%;
+    height: auto;
+}
+.animate{
+    width: 250px;
+    height: 20px;
+    background-color: #f26529;
+    margin-top; 0;
+    float: right;
+    margin-right: 10%;
+}
+
+
+
+/*box our focus*/
+
+.jumbotron-1, jumbotron-fluid{
+    background-color: #e6e6e6;
+    text-align: center;
+    font-family: 'avenir-black';
+    color: #f26529;
+    margin-top: 200px;
+    width: 75%;
+    margin-left: 10%;
+    height: 8%;
+    padding-top: 10px;
+}
+
+
+/*container our focus*/
+
+.container-slider{
+    background-color: #808080;
+    width: 90%;
+    height: 45%;
+    padding: 20px;
+	padding-left: 0;
+    margin-left: 10%;
+}
+
+/*card image slider*/
+
+.card{
+    background-color: #e6e6e6;
+	margin-left: -15%;
+	overflow: hidden;
+}
+
+.card-body{
+    background: #f26529;
+}
+
+.card-text{
+    font-family: 'avenir-black';
+    color: white;
+    text-align: center;
+}
+
+
+/*hover opacity image card impact*/
+
+.card-img-top{
+    
+opacity: 0.5;
+  filter: alpha(opacity=30); 
+}
+
+img:hover {
+  opacity: 1.0;
+  filter: alpha(opacity=100);
+}
+
+/*End Container Impact Slider*/
+
+
+@media (min-width: 568px){
+	
+		.container-slider{
+			width: 90%;
+    		height: 45%;
+			padding: 20px;
+			margin-left: 10%;
+		
+	}
+	
+		.card{
+    		background-color: #e6e6e6;
+			margin-left: 0;
+			
+}
+	
+}
+
+
+
+
+
+/*Start container slider-news*/
+
+.container-slider-news{
+    background-color: #808080;
+    width: 90%;
+    height: 35%;
+    padding: 20px;
+    margin-left: 10%;
+}
+
+
+
+.jumbotron-2, jumbotron-fluid{
+    background-color: #e6e6e6;
+    text-align: center;
+    font-family: 'avenir-black';
+    color: #f26529;
+    margin-top: 200px;
+    width: 75%;
+    margin-left: 10%;
+    height: 8%;
+    padding-top: 10px;
+}
+
+
+.card-news{
+    width: 100%;
+	overflow: hidden;
+}
+
+
+/*End Slider-news*/
+
+
+/*Start jumbotron app dl*/
+
+.jumbotron, jumbotron-fluid{
+    height: auto;
+    background-size: cover;
+    background-image: url("../Images/App_image.png");
+    margin-top: 200px;
+    padding-top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+/*Jumbotron flex box*/
+
+
+.container-dl-app h5{
+    font-family: 'avenir-black';
+    color: white;
+    margin-bottom: 40px;
+}
+
+.container-dl-app ::before{
+    content: '';
+    position: relative;
+    flex-direction: column;
+}
+
+.col-sm content-center .img-fluid-1{
+    content: '';
+    position: relative;
+    float: right;
+    border: 1px;
+    border-color: white;
+}
+
+
+.bottom-margin-sm .img-fluid-2{
+    margin-top: 15px;
+}   
+
+.bottom-margin-sm, .img-fluid-3{
+    margin-top: 20px;
+}
+
+.col-xs{
+    font-family: 'avenir-black';
+    font-size: 20px;
+    color: #f26529;
+    background: white;
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    padding-top: 10px;
+    margin-top: 50px;
+    margin-left: 45%;
+}
+
+
+@media (min-width: 568px){
+   .col-xs{
+       margin-left: 0;
+       font-family: 'avenir-black';
+       font-size: 20px;
+       text-align: center;
+       color: #f26529;
+       background: white;
+       border-radius: 20px;
+       height: 40px;
+       width: 40px;
+       padding-top: 10px;
+       margin-top: 50px;   
+}
+}
+
+/*End App Download Kolom*/
+
+/*Start Newsletter form & Slider*/
+
+.jumbotron-3, jumbotron-fluid{
+    background-color: #e6e6e6;
+    text-align: center;
+    font-family: 'avenir-black';
+    color: #f26529;
+    margin-top: 200px;
+    width: 75%;
+    margin-left: 10%;
+    height: 8%;
+    padding-top: 10px;
+}
+
+
+.container-slider-newsletter{
+    background-color: #808080;
+    width: 100%;
+    height: 350px;
+    padding: 10px;
+	padding-left: 5px;
+    margin-left: 0;
+}
+
+.owl-carousel owl-theme, .item, .card-newsletter{
+    float: right;
+}
+
+.card-nl{
+    float: left;
+    margin-left: 0;
+    color: white;
+    width: 50%;
+    
+}
+
+.card-title{
+	font-family: 'avenir-black';
+	color: white;
+    font-size: 14px;
+}
+.card-title-nl, card-title{
+    font-family: 'avenir-medium';
+	color: white;
+    font-size: 12px;
+}
+
+.card-text-nl{
+    font-family: 'avenir';
+	color: white;
+    font-size: 12px;
+}
+
+.form-group{
+    font-family: 'avenir';
+    font-size: 12px;
+	color: white;
+}
+
+.form-control{
+    font-size: 12px;
+	/*color: white;*/
+}
+
+.from-text text-muted{
+    font-family: 'avenir';
+    color: white;
+}
+
+.card-newsletter{
+    width: 80%;
+	
+}
+
+.owl-carousel .item_nl{
+	margin-right: 10px;
+}
+
+
+    @media (min-width: 568px){
+	
+	   .card-nl{
+    	   float: left;
+    	   margin-left: 10%;
+    	   color: white;
+    	   width: 30%;
+        }
+	   .card-title-nl, card-title{
+    	   font-family: 'avenir-medium';
+        }
+
+	       .card-text-nl{
+    	       font-family: 'avenir';
+        }
+
+	   .form-group{
+    	   font-family: 'avenir';
+    	   font-size: 14px;
+        }
+
+	   .form-control{
+    	   font-size: 14px;
+        }
+
+	   .from-text text-muted{
+    	   font-family: 'avenir';
+    	   color: white;
+        }
+
+	   .card-newsletter{
+    	   width: 100%;
+        }
+
+	   .container-slider-newsletter{
+    	   background-color: #808080;
+    	   width: 60%;
+    	   height: 20%;
+    	   padding: 20px;
+    	   margin-left: 40%;
+        }
+}
+	
+
+/*END NEWSLETTER FORM & SLIDER*/
+
+
+/*FOOTER*/
+
+.jumbotron-footer jumbotron-fluid, #wrapper_footer{
+    background-color: #e6e6e6;
+    margin-top: 300px;
+    width: 100%;
+    height: 370px;
+    padding-top: 20px; 
+    overflow: hidden;
+    
+}
+
+
+.logo-jf img{
+    margin-left: 30%;
+
+}
+
+.logo-jf .nama_pt{
+    font-family: 'avenir';
+    font-size: 12px;
+    margin-left: 25%;
+    
+}
+
+	
+    @media (min-width: 568px){
+    
+        .jumbotron-footer jumbotron-fluid, #wrapper_footer{
+            background-color: #e6e6e6;
+            margin-top: 300px;
+            width: 100%;
+            height: 220px;
+            padding-top: 15px;  
+  
+}
+  
+        .logo-jf img{
+            margin-left: 0;
+	       
+}
+
+        .logo-jf .nama_pt{
+            font-family: 'avenir';
+            font-size: 12px;
+            margin-left: 0px;
+            
+    
+}
+
+}    
+       
+	
+/*Logo JF Footer Versi Handphone*/
+
+
+
+/*Menu Footer*/
+
+#menu-footer{
+    margin-top: 0;
+    margin-left: -2%;
+    display: flex;
+    flex-flow: row;
+}
+
+.col-md col-sm-3, ul{
+    list-style-type: none;
+    float: left;
+    margin-right: 0;
+    padding: 0;   
+}
+
+.col-md col-sm-3, ul li a{
+    font-size: 12px;
+    font-family: 'avenir';
+    color: #f26529;
+    text-decoration: none; 
+    margin-right: 20px;
+
+}
+
+.col-md col-sm-3, ul li a:hover{
+    color: #808080;
+    text-decoration-line: none;
+}
+
+    
+    @media (min-width: 568px){
+        
+            #menu-footer{
+                margin-top: -80px;
+                margin-left: 250px;
+}
+
+            .col-md col-sm-3, ul{
+                list-style-type: none;
+                float: left;
+                padding: 0;
+    
+   
+}
+
+            .col-md col-sm-3, ul li a{
+                font-size: 14px;
+                font-family: 'avenir';
+                color: #f26529;
+                text-decoration: none; 
+                margin-right: 20px;
+}
+
+            .col-md col-sm-3, ul li a:hover{
+                color: #808080;
+                text-decoration-line: none;
+}
+        
+        
+    
+}    
+    
+    
+    
+
+/*Versi Handphone*/
+
+.sosmed_logo{
+    align-content: center;
+   	margin: auto;
+	margin-top: 10px;
+}
+
+#visit{
+	text-align: center;
+    font-weight: 300;
+	color: #f26529;
+	font-size: 22px;
+	margin-top: -10px;
+}
+
+.sosmed_logo ul{
+    margin: 0;
+    padding: 0;
+    top: 10%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-37%,-50%);
+    font-size: 33px;
+    position: relative;
+}
+
+.sosmed_logo ul li{
+    float: left;
+    margin-right: 10px;
+	display: inline-block;
+	flex-flow: row;
+}
+
+
+.sosmed_logo ul li a{
+    list-style: none;
+    float: left;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    line-height: 53px;
+    text-align: center;
+    background: #ffff;
+    border-radius: 50%;
+    font-size: 33px;
+    position: relative;
+    transition: .5s ease-in-out;
+    color: #f26529;
+    z-index: 1;    
+}
+
+
+.sosmed_logo ul li a:before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #e6e6e6;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: .5s ease-in-out;
+    z-index: -1;
+
+}
+
+
+.sosmed_logo ul li a:hover:before
+{
+    transform: scale(1);
+}
+
+
+.sosmed_logo ul li a:hover
+{
+    color: #ffff;
+    
+}
+
+
+    @media (min-width: 568px){
+        
+        .sosmed_logo{
+            align-content: center;
+			margin: auto;
+        }
+
+        #visit{
+	        text-align: center;
+            font-weight: 300;
+			font-size: 20px;
+        }
+
+        .sosmed_logo ul{
+            margin: 0;
+            padding: 0;
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-18%,-50%);
+            font-size: 27px;
+            position: relative;
+        }
+
+        .sosmed_logo ul li{
+            float: left;
+            margin-right: 10px;
+            display: inline-block;
+            flex-flow: row;
+        }
+
+
+        .sosmed_logo ul li a{
+            list-style: none;
+            float: left;
+            margin: 5px;
+            width: 40px;
+            height: 40px;
+            line-height: 42px;
+            text-align: center;
+            background: #ffff;
+            border-radius: 50%;
+            font-size: 27px;
+            position: relative;
+            transition: .5s ease-in-out;
+            color: #f26529;
+            z-index: 1;    
+        }
+
+
+        .sosmed_logo ul li a:before{
+            content: '';
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: #e6e6e6;
+            border-radius: 50%;
+            transform: scale(0);
+            transition: .5s ease-in-out;
+            z-index: -1;
+
+        }
+
+
+        .sosmed_logo ul li a:hover:before
+        {
+        transform: scale(1);
+        }
+
+
+        .sosmed_logo ul li a:hover
+        {
+        color: #ffff;
+    
+        }
+
+    
+}
+
+
+.jumbotron-footer jumbotron-fluid, .container #footer, .row #menu-footer, .col ul{
+        list-style: none;
+    }
+
+
+.jumbotron-footer jumbotron-fluid, .container #footer, .row #menu-footer, .col ul li a{
+    text-decoration: none;
+    font-family: 'avenir';
+    font-size: 14px;
+    color:  #f26529;
+}
+
+
+/*END Footer Menu*/
+
+
+.jumbotron-end-footer{
+    background-color: #f26529;
+    width: 100%;
+    height: 45px;
+    padding-top: 10px; 
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+
+
+
+.container .copyright{
+    font-family: 'avenir';
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
+    

@@ -1,0 +1,135 @@
+
+/*CONTENT ABOUT US*/
+
+.container-content-1{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    
+}
+
+.container_img_about {
+    position: relative;
+    width: 30%;
+    margin-left: 80%;
+    margin-top: 10px;
+}
+
+#image {
+    display: block;
+    width: 360px;
+    height: auto;
+  
+}
+
+
+.col-md narasi, #about_text{
+    font-family: 'avenir-medium';
+    color: #f26529;
+}
+
+.col-md narasi p{
+    font-family: 'avenir';
+    font-size: 16px;
+    text-align: left;
+}
+
+.col-md narasi, #vision_text{
+    font-family: 'avenir-medium';
+    color: #f26529;
+    margin-top: -50px;
+}
+
+.col-md narasi, #mission_text{
+    font-family: 'avenir-medium';
+    color: #f26529;
+	
+}
+
+@media (min-width: 568px){
+    
+   .container_img_about {
+        float: right;
+        position: relative;
+        width: 50%;
+        margin-left: 0;
+        margin-top: 70px;
+}
+
+    #image {
+        display: block;
+        width: 450px;
+        height: auto;
+  
+    }
+    
+    .col-md narasi, #about_text{
+        font-family: 'avenir-medium';
+        color: #f26529;
+    }
+
+    .col-md narasi, p{
+        font-family: 'avenir';
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .col-md narasi, #vision_text{
+        font-family: 'avenir-medium';
+        color: #f26529;
+        margin-top: 50px;
+    }
+
+    .col-md narasi, #mission_text{
+        font-family: 'avenir-medium';
+        color: #f26529;
+    }
+
+}
+
+
+.jumbotron-work, jumbotron-fluid{
+    background-color: #e6e6e6;
+    text-align: center;
+    font-family: 'avenir-black';
+    color: #f26529;
+    margin-top: 200px;
+    width: 75%;
+    margin-left: 12.5%;
+    height: 8%;
+    padding-top: 10px;
+}
+
+
+.jumbotron jumbotron-fluid, #work-list .container .tulisan{
+    text-align: center;
+    color: #f26529;
+    font-family: 'avenir-black';
+    line-height: 10px;
+}
+
+.work_img .img-fluid{
+    width: 100%;
+    margin-left: 0;
+}
+
+
+    @media (min-width: 768px){
+        .work_img .img-fluid{
+            width: 75%;
+            margin-left: 12.5%;
+        }
+}
+
+/*END CONTENT ABOUT US*/
+
+
+
+
+
+
+
+
+
+    

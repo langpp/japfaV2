@@ -1,0 +1,417 @@
+
+/*EDUCATION CSS*/
+
+.banner_edu {
+    margin: auto;
+    text-align: center;
+    width: 400px;
+}
+
+
+.banner_edu .wow.fadeInUp.subText {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 140px;
+}
+
+#image_mbs {
+    margin: auto;
+    width: 300px;
+}
+
+.kotak_grey {
+    width: 100px;
+    height: 100px;
+    background-color: #e6e6e6;
+    box-shadow: 5px 10px 18px #888888;
+    padding: 50px;
+    padding-top: 50px;
+    margin-left: 0;
+    
+}
+
+.kotak_grey h2 {
+    font-family: 'avenir-black';
+    color: #f26529;
+}
+
+.wow.fadeInUp.main_text {
+    width: 100px;
+    border-bottom: 5px solid #808080;
+    
+}
+
+#mbs {
+    width: 350px;
+    margin-top: -8%;
+    margin-bottom: 50px;
+    align-content: center;
+    align-items: center;
+}
+
+.wow.zoomIn.mbs_text {
+    margin-top: 170px;
+    margin-bottom: 70px;
+    font-size: 14px;
+}
+
+
+.wow.fadeInUp.toc_mainText {
+    font-family: 'avenir';
+    color: #f26529;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+
+
+.container.grand_design {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+}
+
+.container.grand_design .wow.slideInUp.box_gds {
+    position: relative;
+    width: 250px;
+    height: 400px;
+    padding: 20px;
+    background: #e6e6e6;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    border-radius: 4px;
+    margin: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+}    
+
+    
+.container.grand_design .wow.slideInUp.box_gds .icon {
+    position: relative;
+    width: 80px;
+    height: 80px;
+    color: #fff;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 50%;
+    font-size: 40px;
+    font-weight: 700;
+    transition: 1s
+}    
+    
+.container.grand_design .wow.slideInUp.box_gds:nth-child(1) .icon {
+    box-shadow: 0 0 0 0 #808080;
+    background: #808080;
+}
+    
+.container.grand_design .wow.slideInUp.box_gds:nth-child(1):hover .icon {
+    box-shadow: 0 0 0 400px #808080;   
+}
+    
+    
+.container.grand_design .wow.slideInUp.box_gds:nth-child(2) .icon {
+    box-shadow: 0 0 0 0 #f26529;
+    background: #f26529;
+}
+    
+.container.grand_design .wow.slideInUp.box_gds:nth-child(2):hover .icon {
+    box-shadow: 0 0 0 400px #f26529;   
+}    
+    
+    
+.container.grand_design .wow.slideInUp.box_gds:nth-child(3) .icon {
+    box-shadow: 0 0 0 0 #808080;
+    background: #808080;
+}
+    
+.container.grand_design .wow.slideInUp.box_gds:nth-child(3):hover .icon {
+    box-shadow: 0 0 0 400px #808080;   
+}  
+    
+.container.grand_design .wow.slideInUp.box_gds:nth-child(4) .icon {
+    box-shadow: 0 0 0 0 #f26529;
+    background: #f26529;
+}
+    
+.container.grand_design .wow.slideInUp.box_gds:nth-child(4):hover .icon {
+    box-shadow: 0 0 0 400px #f26529;   
+}     
+    
+   
+.container.grand_design .wow.slideInUp.box_gds .content {
+    position: relative;
+    z-index: 1;
+    transition: 0.5s;
+        
+}   
+    
+
+.container.grand_design .wow.slideInUp.box_gds:hover .content {
+    color: white;
+}   
+    
+        
+.container.grand_design .wow.slideInUp.box_gds .content .fase {
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 0;
+}    
+    
+   
+.container.grand_design .wow.slideInUp.box_gds .content .textFase {
+    margin: 0;
+    padding: 0;
+} 
+
+
+
+@media (min-width: 568px){
+    
+   .banner_edu {
+    margin: auto;
+    text-align: center;
+    width: 1200px;    
+    }
+
+   .banner_edu .img-fluid {
+        width: 1200px;
+        height: auto;
+        margin-bottom: 30px;
+
+    }
+
+    .banner_edu .wow.fadeInUp.subText {
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 100px;
+    }
+
+    #image_mbs {
+        margin: auto;
+        width: 1200px;
+    }
+
+    .kotak_grey {
+        width: 600px;
+        height: 450px;
+        background-color: #e6e6e6;
+        box-shadow: 5px 10px 18px #888888;
+        padding: 50px;
+        padding-top: 100px;
+        margin-left: 12%;
+    }
+
+    .kotak_grey h2 {
+        font-family: 'avenir-black';
+        color: #f26529;
+    }
+
+
+    #mbs {
+        width: 600px;
+        float: right;
+        margin-right: 12%;
+        margin-top: -30%;
+        margin-bottom: 50px;
+    }
+
+    .wow.zoomIn.mbs_text {
+        margin-top: 170px;
+        margin-bottom: 70px;
+        font-size: 16px;
+    }
+
+    .container.grand_design {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .container.grand_design .wow.slideInUp.box_gds {
+        position: relative;
+        width: 250px;
+        height: 400px;
+        padding: 20px;
+        background: #e6e6e6;
+        box-shadow: 0 5px 15px rgba(0,0,0,.1);
+        border-radius: 4px;
+        margin: 10px;
+        box-sizing: border-box;
+        overflow: hidden;
+        text-align: center;
+    }    
+
+
+    .container.grand_design .wow.slideInUp.box_gds .icon {
+        position: relative;
+        width: 80px;
+        height: 80px;
+        color: #fff;
+        background: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        border-radius: 50%;
+        font-size: 40px;
+        font-weight: 700;
+        transition: 1s
+    }    
+
+    .container.grand_design .wow.slideInUp.box_gds:nth-child(1) .icon {
+        box-shadow: 0 0 0 0 #808080;
+        background: #808080;
+    }
+
+    .container.grand_design .wow.slideInUp.box_gds:nth-child(1):hover .icon {
+        box-shadow: 0 0 0 400px #808080;   
+    }
+
+
+    .container.grand_design .wow.slideInUp.box_gds:nth-child(2) .icon {
+        box-shadow: 0 0 0 0 #f26529;
+        background: #f26529;
+    }
+
+    .container.grand_design .wow.slideInUp.box_gds:nth-child(2):hover .icon {
+        box-shadow: 0 0 0 400px #f26529;   
+    }    
+
+
+    .container.grand_design .wow.slideInUp.box_gds:nth-child(3) .icon {
+        box-shadow: 0 0 0 0 #808080;
+        background: #808080;
+    }
+
+    .container.grand_design .wow.slideInUp.box_gds:nth-child(3):hover .icon {
+        box-shadow: 0 0 0 400px #808080;   
+    }  
+
+    .container.grand_design .wow.slideInUp.box_gds:nth-child(4) .icon {
+        box-shadow: 0 0 0 0 #f26529;
+        background: #f26529;
+    }
+
+    .container.grand_design .wow.slideInUp.box_gds:nth-child(4):hover .icon {
+        box-shadow: 0 0 0 400px #f26529;   
+    }     
+
+
+    .container.grand_design .wow.slideInUp.box_gds .content {
+        position: relative;
+        z-index: 1;
+        transition: 0.5s;
+
+    }   
+
+
+    .container.grand_design .wow.slideInUp.box_gds:hover .content {
+        color: white;
+    }   
+
+
+    .container.grand_design .wow.slideInUp.box_gds .content .fase {
+        font-size: 20px;
+        margin: 10px 0;
+        padding: 0;
+    }    
+
+
+    .container.grand_design .wow.slideInUp.box_gds .content .textFase {
+        margin: 0;
+        padding: 0;
+    }   
+    
+     
+}
+
+
+/*END CONTENT ABOUT US*/
+
+/*START NEWS*/
+
+
+.header_news {
+    width: 100%;
+    height: 80px;
+    box-shadow: 5px 10px 18px #888888;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.header_text {
+    font-family: 'avenir';
+    color: #f26529;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 12%;
+}
+
+.container.news {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.card.news {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: left;
+    font-family: 'avenir';
+    transition: transform .0s;
+    margin-bottom: 50px;
+    background: #e6e6e6;
+}
+
+.news_text {
+    padding: 8px;
+}
+
+.news_text .title {
+    color: black;
+    font-size: 15px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #f26529;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+.card.news:hover {
+    transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
+
+/*END NEWS*/
+
+
+
+
+
+
+
+
+
+
+    

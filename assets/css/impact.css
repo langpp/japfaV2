@@ -1,0 +1,636 @@
+
+/*EDUCATION CSS*/
+
+.banner_edu {
+    margin: auto;
+    text-align: center;
+    width: 400px;
+}
+
+.banner_edu img {
+    width: 1100px;
+    height: auto;
+    margin-bottom: 30px;
+        
+}
+
+.banner_edu .wow.fadeInUp.subText {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 140px;
+}
+
+#image_mbs {
+    margin: auto;
+    width: 300px;
+}
+
+/*START SVG MAP*/
+
+.map_ind {
+    margin-left: 10%;
+    width: 80%;
+    margin-bottom: 100px;
+    margin-top: 100px;
+
+}
+
+.map_ind g {
+    fill: #808080;
+    stroke: #fff;
+    stroke-width: 1px;
+}
+
+#jakarta {
+    fill: #f26529;
+}
+
+#jakarta:hover {
+    fill: #e6e6e6;
+}
+
+#Jawa-Barat {
+    fill: #f26529;
+}
+
+#Jawa-Barat:hover {
+    fill: #e6e6e6;
+}
+
+
+#Jawa-Tengah {
+    fill: #f26529;
+}
+
+#Jawa-Tengah:hover {
+    fill: #e6e6e6;
+}
+
+#Daerah-Istimewa-Yogyakarta {
+    fill: #f26529;
+}
+
+#Daerah-Istimewa-Yogyakarta:hover {
+    fill: #e6e6e6;
+}
+
+#Jawa-Timur {
+    fill: #f26529;
+}
+
+#Jawa-Timur:hover {
+    fill: #e6e6e6;
+}
+
+#Lampung {
+    fill: #f26529;
+}
+
+#Lampung:hover {
+    fill: #e6e6e6;
+}
+
+#Sumatera-Barat {
+    fill: #f26529;
+}
+
+#Sumatera-Barat:hover {
+    fill: #e6e6e6;
+}
+
+#Sumatera-Utara {
+    fill: #f26529;
+}
+
+#Sumatera-Utara:hover {
+    fill: #e6e6e6;
+}
+
+#Aceh {
+    fill: #f26529;
+}
+
+#Aceh:hover {
+    fill: #e6e6e6;
+}
+
+#Kalimantan-Selatan {
+    fill: #f26529;
+}
+
+#Kalimantan-Selatan:hover {
+    fill: #e6e6e6;
+}
+
+#Sulawesi-Barat {
+    fill: #f26529;
+}
+
+#Sulawesi-Barat:hover {
+    fill: #e6e6e6;
+}
+
+#Bali {
+    fill: #f26529;
+}
+
+#Bali:hover {
+    fill: #e6e6e6;
+}
+
+#Pulau-Sumba {
+    fill: #f26529;
+}
+
+#Pulau-Sumba:hover {
+    fill: #e6e6e6;
+}
+
+
+/*END SVG MAP*/
+
+
+/*START TOOLTIP*/
+
+.container-program {
+    display: block;
+    flex-flow: row;
+    margin-left: 15%;
+    margin-bottom: 100px;
+}
+    
+.container-initiatives {
+    position: relative;
+    width: 95%;
+    margin-bottom: 20px;
+}
+
+.image {
+    display: block;
+    width: 95%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 95%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #f26529;
+}
+
+.container-initiatives:hover .overlay {
+    opacity: .9;
+}
+
+.text {
+    color: white;
+    font-size: 13px;
+    position: absolute;
+    top: 20%;
+    left: 16%;
+    -webkit-transform: translate(-10%, -20%);
+    -ms-transform: translate(-10%, -20%);
+    transform: translate(-10%, -20%);
+    text-align: center;
+}
+
+/*END TOOLTIP*/
+
+
+.wow.fadeInUp.main_text {
+    width: 100px;
+    border-bottom: 5px solid #808080;
+    
+}
+
+
+.wow.zoomIn.mbs_text {
+    margin-top: 170px;
+    margin-bottom: 70px;
+    font-size: 14px;
+}
+
+
+.wow.fadeInUp.toc_mainText {
+    font-family: 'avenir';
+    color: #f26529;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+
+.info_satu #Layer_1 {
+    width: 80%;
+}
+
+.info_dua #Layer_1 {
+    width: 80%;
+}
+
+.info_tiga #Layer_1 {
+    width: 80%;
+}
+
+.stakeholder_text {
+    color: black;
+    text-align: center;
+}
+    
+.beneficiaries {
+    margin-right: 0;
+}
+    
+.beneficiaries #benef_1 {
+    width: 100%;
+}
+    
+#others {
+    fill: #F7941D;
+}
+    
+#others:hover {
+         fill: #f26529;
+}
+    
+#teachers {
+        fill: #00A14B;
+}
+    
+#teachers:hover {
+         fill: #f26529;
+}
+    
+#students {
+    fill: #1B75BC;
+}
+    
+#students:hover {
+    fill: #f26529;
+}
+    
+.gender {
+    display: block;
+    flex-flow: row;
+    padding-top: 100px;
+    text-align: center;
+}
+    
+.fa.fa-university {
+    font-size: 60px;
+    text-align: center;
+    margin-right: 0;
+    color: #f26529;
+}
+    
+.gender .university {
+    font-size: 22px;
+    font-family: 'avenir';
+    margin-top: 10px;
+    color: black;
+       
+}
+    
+.fa.fa-building {
+    font-size: 60px;
+    text-align: center;
+    color: #f26529;
+    }
+
+
+
+
+
+@media (min-width: 568px){
+    
+   .banner_edu {
+    margin: auto;
+    text-align: center;
+    width: 1200px;    
+    }
+
+    .banner_edu img {
+        width: 1100px;
+        height: auto;
+        margin-bottom: 30px;
+
+    }
+
+    .banner_edu .wow.fadeInUp.subText {
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 100px;
+    }
+
+    #image_mbs {
+        margin: auto;
+        width: 1200px;
+    }
+
+
+    .infographic {
+        display: flex;
+        width: 80%;
+        height: auto;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    
+    
+    .container-program {
+        display: flex;
+        margin-left: 1%;
+        margin-bottom: 100px;
+    }
+    
+    .container-initiatives {
+        position: relative;
+        width: 95%;
+    }
+
+    .image {
+        display: block;
+        width: 95%;
+        height: auto;
+    }
+
+    .overlay {
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          height: auto;
+          width: 95%;
+          opacity: 0;
+          transition: .5s ease;
+          background-color: #f26529;
+    }
+
+    .container-initiatives:hover .overlay {
+        opacity: .9;
+    }
+
+    .text {
+          color: white;
+          font-size: 13px;
+          position: absolute;
+          top: 20%;
+          left: 16%;
+          -webkit-transform: translate(-10%, -20%);
+          -ms-transform: translate(-10%, -20%);
+          transform: translate(-10%, -20%);
+          text-align: center;
+    }
+
+    
+    
+    .info_satu {
+        margin-right: 100px;
+    }
+    
+    .info_satu #Layer_1 {
+        width: 110%;
+    }
+    
+    .info_dua {
+        margin-right: 100px;
+    }
+    
+    .info_dua #Layer_1 {
+        width: 110%;
+    }
+    
+    .info_tiga {
+        margin-right: 0;
+    }
+    
+    .info_tiga #Layer_1 {
+        width: 110%;
+    }
+    
+    
+    .grup_beneficiaries {
+        display: flex;
+        width: 80%;
+        height: auto;
+        margin: auto;
+    }
+    
+    
+    .beneficiaries {
+        margin-right: 250px;
+    }
+    
+    .beneficiaries #benef_1 {
+        width: 160%;
+    }
+    
+    #others {
+        fill: #F7941D;
+    }
+    
+    #others:hover {
+         fill: #f26529;
+    }
+    
+    #teachers {
+        fill: #00A14B;
+    }
+    
+    #teachers:hover {
+         fill: #f26529;
+    }
+    
+    #students {
+        fill: #1B75BC;
+    }
+    
+    #students:hover {
+         fill: #f26529;
+    }
+    
+    .gender {
+        display: flex;
+        padding-top: 80px;
+    }
+    
+    .fa.fa-university {
+        font-size: 60px;
+        text-align: center;
+        margin-right: 60px;
+        color: #f26529;
+    }
+    
+    .gender .university {
+        font-size: 22px;
+        font-family: 'avenir';
+        margin-top: 10px;
+        text-align: center;
+        color: black;
+       
+    }
+    
+    .fa.fa-building {
+        font-size: 60px;
+        text-align: center;
+        color: #f26529;
+    }
+    
+    .stakeholder_text {
+        float: right;
+        margin-right: 17%;
+        
+    }
+    
+}
+   
+/*END CONTENT IMPACT*/
+
+/*START EDU IMPACT*/
+
+.container-content-1 {
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    
+}
+
+.container_img_about {
+    position: relative;
+    width: 30%;
+    margin-left: 80%;
+    margin-top: 10px;
+}
+
+.col-md.image .container_img_about #image {
+    display: block;
+    width: 360px;
+    height: auto;
+  
+}
+
+
+.col-md.narasi #about_text {
+    font-family: 'avenir-medium';
+    color: #f26529;
+}
+
+.col-md.narasi .wow.zoomIn {
+    font-family: 'avenir';
+    font-size: 16px;
+    text-align: left;
+}
+
+.wow.fadeInUp.subText {
+        text-align: center;
+}
+
+@media (min-width: 568px){
+    
+    
+    .container-content-1{
+        width: 80%;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 100px;
+    
+    }   
+    
+   .container_img_about {
+        float: right;
+        position: relative;
+        width: 50%;
+        margin-left: 0;
+        margin-top: 70px;
+    }
+
+    .col-md.image .container_img_about #image {
+        display: block;
+        width: 450px;
+        height: auto;
+        border-bottom: 20px solid #f26529;
+
+  
+    }
+    
+    .col-md.narasi #about_text {
+        font-family: 'avenir-medium';
+        color: #f26529;
+    }
+
+   .col-md.narasi .wow.zoomIn {
+        font-family: 'avenir';
+        font-size: 16px;
+        text-align: left;
+    }
+
+    .wow.fadeInUp.subText {
+        text-align: center;
+    }
+    
+    .container-social_impact {
+        margin: auto;
+        text-align: center;
+        width: 1200px;
+    
+    }
+    
+    .container-social_impact .wow.zoomIn {
+        width: 1200px;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .bg-image .img-fluid.impact {
+        width: 1200px;
+        text-align: center;
+        margin: auto;
+        filter: blur(1px);
+         -webkit-filter: blur(1px);
+  
+  /* Full height */
+        height: 100%; 
+  
+  /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    
+    /* Position text in the middle of the page/image */
+    .bg-text {
+          background-color: rgb(0,0,0); /* Fallback color */
+          background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+          color: white;
+          font-weight: bold;
+          border: 3px solid #f26529;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          z-index: 2;
+          width: 60%;
+          padding: 20px;
+          text-align: center;
+    }
+    
+    
+   
+
+}
+
+
+
+
+
+
+    
