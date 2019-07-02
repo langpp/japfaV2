@@ -196,6 +196,20 @@ class Home extends CI_Controller {
 		$this->load->view('sport', $data);
 	}
 
+	public function video()
+	{
+		$send_data = array(
+			'news' => $this->M_home->get_news(),
+			'video' => $this->M_home->get_video(),
+		);
+		$path = "";
+		$data = array(
+			"page" => $this->load("Video", $path),
+			"content" =>$this->load->view('video', $send_data, true)
+		);
+		$this->load->view('video', $data);
+	}
+
 	public function detail()
 	{
 		error_reporting(0);

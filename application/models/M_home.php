@@ -192,5 +192,22 @@ class M_home extends CI_Model{
 		return $data;
 	}
 
+	public function get_video(){
+		$query = $this->db->query("SELECT * FROM tb_video ORDER BY id DESC");
+		if ($query->num_rows() > 0)
+		{
+			foreach ($query->result_array() as $row)
+			{
+				$data[] = $row;
+			}
+			$query->free_result();
+		}
+		else
+		{
+			$data = NULL;
+		}
+		return $data;
+	}
+
 }
 ?>
