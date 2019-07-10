@@ -2,8 +2,22 @@ body{
     background: #cccccc;
     padding: 0;
 	font-family: 'avenir';
+    top: 0px !important; 
 }
 
+.goog-te-banner-frame.skiptranslate {display: none !important;} 
+
+.goog-tooltip {
+    display: none !important;
+}
+.goog-tooltip:hover {
+    display: none !important;
+}
+.goog-text-highlight {
+    background-color: transparent !important;
+    border: none !important; 
+    box-shadow: none !important;
+}
 h6{
     margin-bottom: 7px;
     padding-top: 25px;
@@ -99,7 +113,7 @@ h6{
     
     .container-fluid .checkbox-btn{
 		position: absolute;
-		top: 4%;
+		top: 32px;
 		left: 90%;
 		transform: translate(-6%,-90%);
 		width: 120px;
@@ -114,6 +128,85 @@ h6{
 		font-family: 'avenir';
 		font-weight: bold;
 }
+}
+
+.ct-topbar__list {
+    margin-bottom: 0px;
+}
+.ct-language__dropdown{
+    padding-top: 8px;
+    max-height: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 110%;
+    left: 18px;
+    -webkit-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    width: 50px;
+    text-align: center;
+    padding-top: 0;
+    z-index:200;
+}
+.ct-language__dropdown li{
+    background: #222;
+    padding: 5px;
+}
+.ct-language__dropdown li a{
+    display: block;
+}
+.ct-language__dropdown li:first-child{
+    padding-top: 10px;
+    border-radius: 3px 3px 0 0;
+}
+.ct-language__dropdown li:last-child{
+    padding-bottom: 10px;
+    border-radius: 0 0 3px 3px;
+}
+.ct-language__dropdown li:hover{
+    background: #444;
+}
+.ct-language__dropdown:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 8px;
+    height: 0;
+    border: 0 solid transparent;
+    border-right-width: 8px;
+    border-left-width: 8px;
+    border-bottom: 8px solid #222;
+}
+.ct-language{
+    position: relative;
+    background: #f26529;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 7px;
+}
+.ct-language:hover .ct-language__dropdown{
+    max-height: 200px;
+    padding-top: 8px;
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.a-bahasa{
+    text-align: center;
+    display: block;
+    margin: 0px auto;
+}
+.img-bahasa{
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    width: 20px;
+    text-align: center;
 }
 
 
