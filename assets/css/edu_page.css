@@ -5,6 +5,7 @@
     margin: auto;
     text-align: center;
     width: 400px;
+        padding: 0px 40px;
 }
 
 
@@ -12,6 +13,7 @@
     text-align: center;
     font-size: 14px;
     margin-bottom: 140px;
+
 }
 
 #image_mbs {
@@ -47,6 +49,7 @@
     margin-bottom: 50px;
     align-content: center;
     align-items: center;
+        margin-bottom: 0px !important;
 }
 
 .wow.zoomIn.mbs_text {
@@ -175,11 +178,11 @@
    .banner_edu {
     margin: auto;
     text-align: center;
-    width: 1200px;    
+    width: 100% !important;    
     }
 
    .banner_edu .img-fluid {
-        width: 1200px;
+        width: 100%;
         height: auto;
         margin-bottom: 30px;
 
@@ -193,11 +196,11 @@
 
     #image_mbs {
         margin: auto;
-        width: 1200px;
+        width: 100% !important;
     }
 
     .kotak_grey {
-        width: 600px;
+        width: auto;
         height: 450px;
         background-color: #e6e6e6;
         box-shadow: 5px 10px 18px #888888;
@@ -224,6 +227,7 @@
         margin-top: 170px;
         margin-bottom: 70px;
         font-size: 16px;
+        padding: 0px 100px !important;s
     }
 
     .container.grand_design {

@@ -57,7 +57,7 @@
 }
 
 .wow.zoomIn.mbs_text {
-    margin-top: 170px;
+    margin-top: 210px;
     margin-bottom: 70px;
 }
 
@@ -78,7 +78,7 @@
 }
 
 .wow.slideInUp.box {
-    width: 360px; 
+    width: auto; 
     height: 420px;
     justify-content: center;
     text-align: center;

@@ -579,18 +579,18 @@
     .container-social_impact {
         margin: auto;
         text-align: center;
-        width: 1200px;
+        width: 100%;
     
     }
     
     .container-social_impact .wow.zoomIn {
-        width: 1200px;
+        width: 100%;
         text-align: center;
         justify-content: center;
     }
     
     .bg-image .img-fluid.impact {
-        width: 1200px;
+        width: 100%;
         text-align: center;
         margin: auto;
         filter: blur(1px);
@@ -614,7 +614,7 @@
           font-weight: bold;
           border: 3px solid #f26529;
           position: absolute;
-          top: 50%;
+          top: 400px;
           left: 50%;
           transform: translate(-50%, -50%);
           z-index: 2;

@@ -39,9 +39,9 @@
 		<div class="ct-topbar float-right">
 			<ul class="list-unstyled list-inline ct-topbar__list">
 				<li class="ct-language">Bahasa <i class="fa fa-chevron-down"></i>
-					<ul class="list-unstyled ct-language__dropdown">
+					<ul class="list-unstyled ct-language__dropdown" style="height: 50px;">
 						<li><a href="#googtrans(id|id)" class="lang-id lang-select a-bahasa" data-lang="id"><img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/1x1/id.svg" alt="INDONESIA" class="img-bahasa"></a></li>
-						<li><a href="#googtrans(en|en)" class="lang-en lang-select a-bahasa" data-lang="en"><img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/1x1/us.svg" alt="ENGLISH" class="img-bahasa"></a></li>
+						<li><a href="#googtrans(en|en)" class="lang-en lang-select a-bahasa" data-lang="en"><img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/1x1/us.svg" alt="ENGLISH" class="img-bahasa" style="top: 5px;"></a></li>
 					</ul>
 				</li>
 			</ul>
@@ -145,7 +145,7 @@
 					<a class="btn style="background-color: #f26529 href="<?php echo base_url();?>aboutUs" role="button">Read More</a>             
 				</div>
 				<div class="col-md">
-					<img src="<?php echo base_url();?>assets/Images/about_us_image.jpg" width="300">
+					<img src="<?php echo base_url();?>assets/Images/about_us_image.jpg" class="w-300about">
 					<div class="animate"></div>
 				</div>
 			</div>
@@ -161,7 +161,7 @@
 	<div class="container-slider">
 		<div class="owl-carousel owl-theme">
 			<div class="item">
-				<div class="card" style="width: 17rem;">
+				<div class="card" style="width: auto;">
 					<a href="<?php echo base_url();?>eduPage">
 						<img src="<?php echo base_url();?>assets/Images/Education_Image.jpg" class="card-img-top" alt="education">
 						<div class="card-body">
@@ -171,7 +171,7 @@
 				</div>
 			</div>
 			<div class="item">
-				<div class="card" style="width: 17rem;">
+				<div class="card" style="width: auto;">
 					<a href="<?php echo base_url();?>nutritionPage">
 						<img src="<?php echo base_url();?>assets/Images/Nutrition%20Image.jpg" class="card-img-top" alt="education">
 						<div class="card-body">
@@ -181,7 +181,7 @@
 				</div>
 			</div>
 			<div class="item">
-				<div class="card" style="width: 17rem;">
+				<div class="card" style="width: auto;">
 					<a href="<?php echo base_url();?>sport">
 						<img src="<?php echo base_url();?>assets/Images/Sports.jpg" class="card-img-top" alt="education">
 						<div class="card-body">
@@ -191,7 +191,7 @@
 				</div>
 			</div>
 			<div class="item">
-				<div class="card" style="width: 17rem;">
+				<div class="card" style="width: auto;">
 					<a href="<?php echo base_url();?>socialStrategic">
 						<img src="<?php echo base_url();?>assets/Images/Cosi_Image.jpg" class="card-img-top" alt="education">
 						<div class="card-body">
@@ -201,7 +201,7 @@
 				</div>
 			</div>
 			<div class="item">
-				<div class="card" style="width: 17rem;">
+				<div class="card" style="width: auto;">
 					<a href="<?php echo base_url();?>disasterPage">
 						<img src="<?php echo base_url();?>assets/Images/Foto_Dampak/Disaster.jpg" class="card-img-top" alt="education">
 						<div class="card-body">
@@ -222,7 +222,7 @@
 	<div class="container-slider">
 		<div class="owl-carousel owl-theme">
 			<div class="item">
-				<div class="card" style="width: 17rem;">
+				<div class="card" style="width: auto;">
 					<a href="<?php echo base_url();?>eduImpact">
 						<img src="<?php echo base_url();?>assets/Images/Foto_Dampak/Pendidikan_Agrikultur.jpg" class="card-img-top" alt="education">
 						<div class="card-body">
@@ -232,7 +232,7 @@
 				</div>
 			</div>
 			<div class="item">
-				<div class="card" style="width: 17rem;">
+				<div class="card" style="width: auto;">
 					<a href="<?php echo base_url();?>nutritionImpact">
 						<img src="<?php echo base_url();?>assets/Images/Foto_Dampak/Gizi.jpg" class="card-img-top" alt="education">
 						<div class="card-body">
@@ -242,7 +242,7 @@
 				</div>
 			</div>
 			<div class="item">
-				<div class="card" style="width: 17rem;">
+				<div class="card" style="width: auto;">
 					<a href="<?php echo base_url();?>sportImpact">
 						<img src="<?php echo base_url();?>assets/Images/Foto_Dampak/Olahraga.jpg" class="card-img-top" alt="education">
 						<div class="card-body">
@@ -252,7 +252,7 @@
 				</div>
 			</div>
 			<div class="item">
-				<div class="card" style="width: 17rem;">
+				<div class="card" style="width: auto;">
 					<a href="<?php echo base_url();?>socialImpact">
 						<img src="<?php echo base_url();?>assets/Images/Foto_Dampak/Strategi_Sosial.jpg" class="card-img-top" alt="education">
 						<div class="card-body">
@@ -262,7 +262,7 @@
 				</div>
 			</div>
 			<div class="item">
-				<div class="card" style="width: 17rem;">
+				<div class="card" style="width: auto;">
 					<a href="<?php echo base_url();?>disasterImpact">
 						<img src="<?php echo base_url();?>assets/Images/Foto_Dampak/Disaster.jpg" class="card-img-top" alt="education">
 						<div class="card-body">
@@ -505,7 +505,7 @@
 						items:1
 					},
 					600:{
-						items:3
+						items:2
 					},
 					1000:{
 						items:4

@@ -37,14 +37,19 @@
 <body>
     <!--- Start menu Bahasa -->
     <section>
-        <div class="container-fluid">
-            <h6></h6>
-            <div class="checkbox-btn">
-                <input type="checkbox" name="bahasa">
-                <div><span class="slide"></span></div>
+        <div class="container">
+            <div class="ct-topbar float-right">
+                <ul class="list-unstyled list-inline ct-topbar__list">
+                    <li class="ct-language">Bahasa <i class="fa fa-chevron-down"></i>
+                        <ul class="list-unstyled ct-language__dropdown" style="height: 50px;">
+                            <li><a href="#googtrans(id|id)" class="lang-id lang-select a-bahasa" data-lang="id"><img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/1x1/id.svg" alt="INDONESIA" class="img-bahasa"></a></li>
+                            <li><a href="#googtrans(en|en)" class="lang-en lang-select a-bahasa" data-lang="en"><img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/1x1/us.svg" alt="ENGLISH" class="img-bahasa" style="top: 5px;"></a></li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </div>
-    </section>
+    </section><br><br>
     <!-- Start Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark p-0" style="background-color: #f26529">
       <div class="row mx-md-n5">
@@ -2452,81 +2457,90 @@
 <!--- START BENEFICIARIES -->  
 <h5 class="stakeholder_text">Stakeholders in collaboration with Japfa Foundation</h5>
 <div class="grup_beneficiaries">
-    <div class="beneficiaries">
-        <svg version="1.1" id="benef_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-        viewBox="0 0 229.136 141.732">
-        <g>
-            <path fill="#F7941D" d="M103.182,119.544c-23.015,0-41.739-18.725-41.739-41.739s18.724-41.739,41.739-41.739v-10
-            c-28.529,0-51.739,23.21-51.739,51.739c0,28.529,23.21,51.739,51.739,51.739c14.301,0,27.264-5.834,36.639-15.246l-7.211-6.924
-            C125.057,114.89,114.654,119.544,103.182,119.544z"/>
-            <path fill="#FFFFFF" d="M103.182,129.794c-28.667,0-51.989-23.322-51.989-51.989c0-28.667,23.322-51.989,51.989-51.989h0.25v10.5
-            h-0.25c-22.877,0-41.489,18.612-41.489,41.489s18.612,41.489,41.489,41.489c11.025,0,21.414-4.296,29.25-12.097l0.174-0.173
-            l7.571,7.271l-0.18,0.181C130.158,124.353,117.083,129.794,103.182,129.794z M102.932,26.316
-            c-28.277,0.135-51.239,23.181-51.239,51.488c0,28.392,23.098,51.489,51.489,51.489c13.682,0,26.557-5.322,36.282-14.991
-            l-6.852-6.58c-7.911,7.787-18.353,12.071-29.43,12.071c-23.153,0-41.989-18.836-41.989-41.989
-            c0-23.069,18.701-41.853,41.739-41.988V26.316z"/>
-        </g>
-        <g>
-            <path fill="#1B75BC" d="M103.182,26.066v10c23.015,0,41.739,18.724,41.739,41.739c0,9.703-3.338,18.634-8.913,25.729l7.804,6.243
-            c6.947-8.808,11.109-19.91,11.109-31.973C154.921,49.276,131.711,26.066,103.182,26.066z"/>
-            <path fill="#FFFFFF" d="M143.853,110.13l-8.193-6.556l0.153-0.194c5.795-7.377,8.858-16.221,8.858-25.575
-            c0-22.877-18.611-41.489-41.489-41.489h-0.25v-10.5h0.25c28.667,0,51.989,23.322,51.989,51.989
-            c0,11.758-3.859,22.867-11.162,32.128L143.853,110.13z M136.357,103.493l7.414,5.932c7.131-9.132,10.899-20.06,10.899-31.62
-            c0-28.308-22.962-51.354-51.239-51.488v9.5c23.039,0.135,41.739,18.918,41.739,41.988
-            C145.171,87.189,142.124,96.066,136.357,103.493z"/>
-        </g>
-        <g>
-            <path fill="#00A14B" d="M132.61,107.374l7.211,6.924c1.419-1.425,2.745-2.94,3.991-4.521l-7.804-6.243
-            C134.951,104.88,133.821,106.168,132.61,107.374z"/>
-            <path fill="#FFFFFF" d="M139.825,114.649l-7.573-7.272l0.181-0.18c1.154-1.148,2.291-2.434,3.38-3.817l0.155-0.198l8.194,6.556
-            l-0.153,0.195c-1.299,1.646-2.648,3.175-4.011,4.543L139.825,114.649z M132.967,107.37l6.85,6.578
-            c1.236-1.255,2.461-2.643,3.646-4.131l-7.413-5.931C135.053,105.139,134.018,106.309,132.967,107.37z"/>
-        </g>
-        <line fill="none" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" x1="49.803" y1="80.805" x2="30.375" y2="80.805"/>
-        <a href="#" data-trigger="hover" data-toggle="popover" data-placement="top" title="Others" data-content="13.688 People">
-            <rect x="15.479" y="73.944" width="13.506" height="13.506" id="others"/>
-        </a>
-        <a href="#" data-trigger="hover" data-toggle="popover" data-placement="top" title="Teachers/Lectures" data-content="149 People">
-            <rect x="182.741" y="111.315" width="13.506" height="13.506" id="teachers"/>
-        </a>
-        <a href="#" data-trigger="hover" data-toggle="popover" data-placement="top" title="Teachers/Lectures" data-content="8.563 People">
-            <rect x="182.733" y="25.439" width="13.506" height="13.506" id="students"/>
-        </a>
-        <polyline fill="none" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" points="142.154,40.92 155.171,32.192 
-        178.757,32.192 "/>
-        <polyline fill="none" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" points="144.162,113.948 155.171,118.068 
-        178.757,118.068 "/>
-        <text transform="matrix(1 0 0 1 7.2669 13.1328)">
-            <tspan x="0" y="0" font-family="'Avenir-Roman'" font-size="8px">Group Beneficiaries </tspan>
-            <tspan x="0" y="9.6" font-family="'Avenir-Roman'" font-size="8px">in 2016-2018</tspan>
-        </text>
-    </svg>
-</div>
-<div class="gender">
-    <i class="fa fa-university" aria-hidden="true">
-        <br>
-        <p class="university">University : 32</p>
-    </i>
-    <br>
-    <br><br>
-    <i class="fa fa-university" aria-hidden="true">
-        <br>
-        <p class="university">School : 31</p>
-    </i>
-    <br>
-    <br><br>
-    <i class="fa fa-university" aria-hidden="true">
-        <br>
-        <p class="university">Academic : 5</p>
-    </i>
-    <br>
-    <br><br>
-    <i class="fa fa-building" aria-hidden="true">
-        <br>
-        <p class="university">NGO : 7</p>
-    </i>
-    <br>
-    <br><br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4"> 
+                <div class="beneficiaries w-100">
+                    <svg version="1.1" id="benef_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                    viewBox="0 0 229.136 141.732" class="w-100">
+                    <g>
+                        <path fill="#F7941D" d="M103.182,119.544c-23.015,0-41.739-18.725-41.739-41.739s18.724-41.739,41.739-41.739v-10
+                        c-28.529,0-51.739,23.21-51.739,51.739c0,28.529,23.21,51.739,51.739,51.739c14.301,0,27.264-5.834,36.639-15.246l-7.211-6.924
+                        C125.057,114.89,114.654,119.544,103.182,119.544z"/>
+                        <path fill="#FFFFFF" d="M103.182,129.794c-28.667,0-51.989-23.322-51.989-51.989c0-28.667,23.322-51.989,51.989-51.989h0.25v10.5
+                        h-0.25c-22.877,0-41.489,18.612-41.489,41.489s18.612,41.489,41.489,41.489c11.025,0,21.414-4.296,29.25-12.097l0.174-0.173
+                        l7.571,7.271l-0.18,0.181C130.158,124.353,117.083,129.794,103.182,129.794z M102.932,26.316
+                        c-28.277,0.135-51.239,23.181-51.239,51.488c0,28.392,23.098,51.489,51.489,51.489c13.682,0,26.557-5.322,36.282-14.991
+                        l-6.852-6.58c-7.911,7.787-18.353,12.071-29.43,12.071c-23.153,0-41.989-18.836-41.989-41.989
+                        c0-23.069,18.701-41.853,41.739-41.988V26.316z"/>
+                    </g>
+                    <g>
+                        <path fill="#1B75BC" d="M103.182,26.066v10c23.015,0,41.739,18.724,41.739,41.739c0,9.703-3.338,18.634-8.913,25.729l7.804,6.243
+                        c6.947-8.808,11.109-19.91,11.109-31.973C154.921,49.276,131.711,26.066,103.182,26.066z"/>
+                        <path fill="#FFFFFF" d="M143.853,110.13l-8.193-6.556l0.153-0.194c5.795-7.377,8.858-16.221,8.858-25.575
+                        c0-22.877-18.611-41.489-41.489-41.489h-0.25v-10.5h0.25c28.667,0,51.989,23.322,51.989,51.989
+                        c0,11.758-3.859,22.867-11.162,32.128L143.853,110.13z M136.357,103.493l7.414,5.932c7.131-9.132,10.899-20.06,10.899-31.62
+                        c0-28.308-22.962-51.354-51.239-51.488v9.5c23.039,0.135,41.739,18.918,41.739,41.988
+                        C145.171,87.189,142.124,96.066,136.357,103.493z"/>
+                    </g>
+                    <g>
+                        <path fill="#00A14B" d="M132.61,107.374l7.211,6.924c1.419-1.425,2.745-2.94,3.991-4.521l-7.804-6.243
+                        C134.951,104.88,133.821,106.168,132.61,107.374z"/>
+                        <path fill="#FFFFFF" d="M139.825,114.649l-7.573-7.272l0.181-0.18c1.154-1.148,2.291-2.434,3.38-3.817l0.155-0.198l8.194,6.556
+                        l-0.153,0.195c-1.299,1.646-2.648,3.175-4.011,4.543L139.825,114.649z M132.967,107.37l6.85,6.578
+                        c1.236-1.255,2.461-2.643,3.646-4.131l-7.413-5.931C135.053,105.139,134.018,106.309,132.967,107.37z"/>
+                    </g>
+                    <line fill="none" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" x1="49.803" y1="80.805" x2="30.375" y2="80.805"/>
+                    <a href="#" data-trigger="hover" data-toggle="popover" data-placement="top" title="Others" data-content="13.688 People">
+                        <rect x="15.479" y="73.944" width="13.506" height="13.506" id="others"/>
+                    </a>
+                    <a href="#" data-trigger="hover" data-toggle="popover" data-placement="top" title="Teachers/Lectures" data-content="149 People">
+                        <rect x="182.741" y="111.315" width="13.506" height="13.506" id="teachers"/>
+                    </a>
+                    <a href="#" data-trigger="hover" data-toggle="popover" data-placement="top" title="Teachers/Lectures" data-content="8.563 People">
+                        <rect x="182.733" y="25.439" width="13.506" height="13.506" id="students"/>
+                    </a>
+                    <polyline fill="none" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" points="142.154,40.92 155.171,32.192 
+                    178.757,32.192 "/>
+                    <polyline fill="none" stroke="#000000" stroke-width="0.5" stroke-miterlimit="10" points="144.162,113.948 155.171,118.068 
+                    178.757,118.068 "/>
+                    <text transform="matrix(1 0 0 1 7.2669 13.1328)">
+                        <tspan x="0" y="0" font-family="'Avenir-Roman'" font-size="8px">Group Beneficiaries </tspan>
+                        <tspan x="0" y="9.6" font-family="'Avenir-Roman'" font-size="8px">in 2016-2018</tspan>
+                    </text>
+                </svg>
+
+            </div>
+        </div>
+        <div class="col-lg-8"> 
+            <div class="gender">
+                <i class="fa fa-university" aria-hidden="true">
+                    <br>
+                    <p class="university">University : 32</p>
+                </i>
+                <br>
+                <br><br>
+                <i class="fa fa-university" aria-hidden="true">
+                    <br>
+                    <p class="university">School : 31</p>
+                </i>
+                <br>
+                <br><br>
+                <i class="fa fa-university" aria-hidden="true">
+                    <br>
+                    <p class="university">Academic : 5</p>
+                </i>
+                <br>
+                <br><br>
+                <i class="fa fa-building" aria-hidden="true">
+                    <br>
+                    <p class="university">NGO : 7</p>
+                </i>
+                <br>
+                <br><br>
+            </div>
+        </div>
+    </div>
 </div>
 </div>
 <!--- END BENEFICIARIES -->       
@@ -2642,5 +2656,39 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+        setTimeout(function () { $(".goog-close-link").trigger("click"); }, 10);
+    });
+</script>
+<script type="text/javascript">
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT}, 'google_translate_element');
+    }
+
+    function triggerHtmlEvent(element, eventName) {
+        var event;
+        if (document.createEvent) {
+            event = document.createEvent('HTMLEvents');
+            event.initEvent(eventName, true, true);
+            element.dispatchEvent(event);
+        } else {
+            event = document.createEventObject();
+            event.eventType = eventName;
+            element.fireEvent('on' + event.eventType, event);
+        }
+    }
+
+    jQuery('.lang-select').click(function() {
+        var theLang = jQuery(this).attr('data-lang');
+        jQuery('.goog-te-combo').val(theLang);
+
+      //alert(jQuery(this).attr('href'));
+      window.location = jQuery(this).attr('href');
+      location.reload();
+
+  });
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </body>
 </html>

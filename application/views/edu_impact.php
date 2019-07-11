@@ -37,14 +37,19 @@
 <body>
   <!--- Start menu Bahasa -->
   <section>
-    <div class="container-fluid">
-      <h6></h6>
-      <div class="checkbox-btn">
-        <input type="checkbox" name="bahasa">
-        <div><span class="slide"></span></div>
-      </div>
+    <div class="container">
+    <div class="ct-topbar float-right">
+      <ul class="list-unstyled list-inline ct-topbar__list">
+        <li class="ct-language">Bahasa <i class="fa fa-chevron-down"></i>
+          <ul class="list-unstyled ct-language__dropdown" style="height: 50px;">
+            <li><a href="#googtrans(id|id)" class="lang-id lang-select a-bahasa" data-lang="id"><img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/1x1/id.svg" alt="INDONESIA" class="img-bahasa"></a></li>
+            <li><a href="#googtrans(en|en)" class="lang-en lang-select a-bahasa" data-lang="en"><img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/flags/1x1/us.svg" alt="ENGLISH" class="img-bahasa" style="top: 5px;"></a></li>
+          </ul>
+        </li>
+      </ul>
     </div>
-  </section>
+    </div>
+  </section><br><br>
   <!-- Start Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark p-0" style="background-color: #f26529">
     <div class="row mx-md-n5">
@@ -103,7 +108,7 @@
   </nav>
   <!-- End Navbar -->
   <!--- START CONTENT -->
-  <div class="container-social_impact">
+  <div class="container-social_impact container-content-1">
     <div class="bg-image">
       <img src="<?php echo base_url();?>assets/Images/Foto_Dampak/banner_edu%20_impact.jpg" class="img-fluid impact"><br><br>
       <h3 class="wow fadeInUp toc_mainText">Education Program</h3>
@@ -287,5 +292,39 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+      setTimeout(function () { $(".goog-close-link").trigger("click"); }, 10);
+      });
+    </script>
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.FloatPosition.TOP_LEFT}, 'google_translate_element');
+      }
+
+      function triggerHtmlEvent(element, eventName) {
+        var event;
+        if (document.createEvent) {
+          event = document.createEvent('HTMLEvents');
+          event.initEvent(eventName, true, true);
+          element.dispatchEvent(event);
+        } else {
+          event = document.createEventObject();
+          event.eventType = eventName;
+          element.fireEvent('on' + event.eventType, event);
+        }
+      }
+
+      jQuery('.lang-select').click(function() {
+        var theLang = jQuery(this).attr('data-lang');
+        jQuery('.goog-te-combo').val(theLang);
+
+    //alert(jQuery(this).attr('href'));
+    window.location = jQuery(this).attr('href');
+    location.reload();
+
+  });
+</script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
   </body>
   </html>
