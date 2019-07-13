@@ -106,6 +106,7 @@
 	</nav>
 	<!-- End Navbar -->
 	<!--- Corousel Banner -->
+				<?php if (!empty($sliderActive)) { ?>
 	<div class="container-carousel">
 		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 			<ol class="carousel-indicators">
@@ -114,15 +115,14 @@
 				<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 			</ol>
 			<div class="carousel-inner">
-				<div class="carousel-item active">
-					<a href="#"><img src="<?php echo base_url();?>assets/Images/Banner_FGD_Padang.jpg" width="100%" alt="First Slide"></a>
+				<?php
+				$isFirst = 1;
+				foreach ($sliderActive as $dataSliderActive) { ?> 
+				<?php $item_class = ($isFirst == 1) ? 'carousel-item active' : 'carousel-item'; ?>
+				<div class="<?php echo $item_class; ?>">
+					<a href="#"><img src="<?php echo base_url();?>assets/Images/<?php echo $dataSliderActive['file'];?>" width="100%"></a>
 				</div>
-				<div class="carousel-item">
-					<img src="<?php echo base_url();?>assets/Images/Banner_talkshow_padang.jpg" width="100%" alt="Second Slide">
-				</div>
-				<div class="carousel-item">
-					<img src="<?php echo base_url();?>assets/Images/Banner_orientasi_beasiswa.jpg" width="100%" alt="Third Slide">
-				</div>
+				<?php $isFirst++; }?>
 			</div>
 			<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
 				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -134,6 +134,7 @@
 			</a>
 		</div>
 	</div>
+				<?php } ?>
 	<!-- End Carousel -->
 	<!--- About Us -->
 	<section>

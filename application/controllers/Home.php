@@ -17,6 +17,7 @@ class Home extends CI_Controller {
 	{	
 		$send_data = array(
 			'news' => $this->M_home->get_news(),
+			'sliderActive' => $this->M_home->sliderActive(),
 		);
 		$path = "";
 		$data = array(

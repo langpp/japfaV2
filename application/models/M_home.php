@@ -209,5 +209,22 @@ class M_home extends CI_Model{
 		return $data;
 	}
 
+	public function sliderActive(){
+		$query = $this->db->query("SELECT * FROM banner ORDER BY id_banner DESC LIMIT 3");
+		if ($query->num_rows() > 0)
+		{
+			foreach ($query->result_array() as $row)
+			{
+				$data[] = $row;
+			}
+			$query->free_result();
+		}
+		else
+		{
+			$data = NULL;
+		}
+		return $data;
+	}
+
 }
 ?>
