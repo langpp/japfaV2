@@ -305,7 +305,7 @@
 				<div class="container-fluid">
 					<div class="row">
 						<div class="col-sm content-center"><img class="img-fluid-1" src="<?php echo base_url();?>assets/Images/QR_Code.png" width="160"></div>
-						<h4 class="col-xs">OR</h4>
+						<h4 class="col-xs" style="margin-left: 0px !important;">OR</h4>
 						<div class="col-sm">
 							<a class="bottom-margin-sm" href="#"><img class="img-fluid-2" src="<?php echo base_url();?>assets/Images/Appstore_logo.png" width="160px"></a>
 							<a class="bottom-margin-sm" href="#"><img class="img-fluid-3" src="<?php echo base_url();?>assets/Images/Google-Play-Store-Logo.png" width="184px"></a>
