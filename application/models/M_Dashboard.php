@@ -56,5 +56,10 @@ class M_Dashboard extends CI_Model{
 		return $query;
 	}
 
+	public function allSlider(){
+		$query = $this->db->query("SELECT * FROM banner")->result_array();
+		return $query;
+	}
+
 }
 ?>

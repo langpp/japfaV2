@@ -77,6 +77,19 @@ class Dashboard extends CI_Controller {
 		$this->load->view('dashboard/template/default_template', $data);
 	}
 
+	public function slider()
+	{
+		$lemparan = array(
+			'allSlider' => $this->M_Dashboard->allSlider(),
+		);
+		$path = "";
+		$data = array(
+			"page" => $this->load("Slider", $path),
+			"content" =>$this->load->view('dashboard/dashboard/slider', $lemparan, true)
+		);
+		$this->load->view('dashboard/template/default_template', $data);
+	}
+
 	public function tambahNews()
 	{
 		$last_id = $this->db->query("SELECT id_news FROM tbnews ORDER BY id_news DESC LIMIT 1")->result_array();
@@ -186,6 +199,56 @@ class Dashboard extends CI_Controller {
 		}else{
 			$this->session->set_flashdata('notif', '<script>swal("Error", "Data Gagal Diubah !", "error");</script>');
 			redirect('dashboard/about'); 
+		}
+	}
+
+	public function tambahSlider()
+	{
+		$file = $_FILES['file'];
+		$kirim = array(
+			"file" => $_FILES['file']['name'],
+		);
+		$insert = $this->db->insert("banner", $kirim);
+		if ($insert) {
+			move_uploaded_file($_FILES['file']['tmp_name'], "./assets/Images/" . $_FILES['file']['name']);
+			$this->session->set_flashdata('notif', '<script>swal("Success", "Data Berhasil Disimpan !", "success");</script>');
+			redirect('dashboard/slider'); 
+		}else{
+			$this->session->set_flashdata('notif', '<script>swal("Error", "Data Gagal Disimpan !", "error");</script>');
+			redirect('dashboard/slider'); 
+		}
+	}
+
+	public function editSlider()
+	{
+		$id = $this->input->post('id');
+		$file = $_FILES['file'];
+		$kirim = array(
+			"file" => $_FILES['file']['name'],
+		);
+		$this->db->where("id_banner", $id);
+		$update = $this->db->update("banner", $kirim);
+		if ($update) {
+			move_uploaded_file($_FILES['file']['tmp_name'], "./assets/Images/" . $_FILES['file']['name']);
+
+			$this->session->set_flashdata('notif', '<script>swal("Success", "Data Berhasil Diubah !", "success");</script>');
+			redirect('dashboard/slider'); 
+		}else{
+			$this->session->set_flashdata('notif', '<script>swal("Error", "Data Gagal Diubah !", "error");</script>');
+			redirect('dashboard/slider'); 
+		}
+	}
+
+	public function deleteSlider(){
+		$id = $_GET['id'];
+
+		$delete = $this->db->query("DELETE FROM banner WHERE id_banner='$id'");
+		if ($delete) {
+			$this->session->set_flashdata('notif', '<script>swal("Success", "Data Berhasil Dihapus !", "success");</script>');
+			redirect('dashboard/slider'); 
+		}else{
+			$this->session->set_flashdata('notif', '<script>swal("Error", "Data Gagal Dihapus !", "error");</script>');
+			redirect('dashboard/slider'); 
 		}
 	}
 	

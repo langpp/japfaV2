@@ -210,7 +210,7 @@ class M_home extends CI_Model{
 	}
 
 	public function sliderActive(){
-		$query = $this->db->query("SELECT * FROM banner ORDER BY id_banner DESC LIMIT 3");
+		$query = $this->db->query("SELECT * FROM banner ORDER BY id_banner DESC");
 		if ($query->num_rows() > 0)
 		{
 			foreach ($query->result_array() as $row)

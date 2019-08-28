@@ -30,6 +30,9 @@
          <li <?php if ($this->uri->segment(1) == "dashboard" && $this->uri->segment(2) == "subscriber") { ?> class="nav-active" <?php }else{?> class="" <?php }?>>
             <a href="<?php echo base_url();?>dashboard/subscriber "><img src="<?php echo base_url();?>assets/dashboard/icon/inventaris.png" width="20"><span> Subscriber</span></a>
          </li>
+         <li <?php if ($this->uri->segment(1) == "dashboard" && $this->uri->segment(2) == "slider") { ?> class="nav-active" <?php }else{?> class="" <?php }?>>
+            <a href="<?php echo base_url();?>dashboard/slider "><img src="<?php echo base_url();?>assets/dashboard/icon/tracking.png" width="20"><span> Slider</span></a>
+         </li>
          <li class="menu-header">More</li>
          <li>
             <a href="#" onclick="logout()"><img src="<?php echo base_url();?>assets/dashboard/icon/logo-logout.png"><span>Logout</span></a>
