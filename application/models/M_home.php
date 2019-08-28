@@ -226,5 +226,10 @@ class M_home extends CI_Model{
 		return $data;
 	}
 
+	public function aboutUs(){
+		$query = $this->db->query("SELECT about FROM tbprofil")->result_array();
+		return $query;
+	}
+
 }
 ?>

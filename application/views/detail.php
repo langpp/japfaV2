@@ -93,9 +93,9 @@
               <a class="dropdown-item" href="#">University</a>
             </div>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="<?php echo base_url();?>video">Video</a>
-          </li>
+          <!-- <li class="nav-item active">
+            <a class="nav-link" href="<?php //echo base_url();?>video">Video</a>
+          </li> -->
         </ul>
       </div>
     </div>
