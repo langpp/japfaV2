@@ -61,5 +61,10 @@ class M_Dashboard extends CI_Model{
 		return $query;
 	}
 
+	public function allGallery(){
+		$query = $this->db->query("SELECT * FROM tbgaleri ORDER BY id DESC")->result_array();
+		return $query;
+	}
+
 }
 ?>

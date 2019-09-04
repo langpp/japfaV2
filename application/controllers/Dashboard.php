@@ -90,6 +90,19 @@ class Dashboard extends CI_Controller {
 		$this->load->view('dashboard/template/default_template', $data);
 	}
 
+	public function gallery()
+	{
+		$lemparan = array(
+			'allGallery' => $this->M_Dashboard->allGallery(),
+		);
+		$path = "";
+		$data = array(
+			"page" => $this->load("Gallery", $path),
+			"content" =>$this->load->view('dashboard/dashboard/gallery', $lemparan, true)
+		);
+		$this->load->view('dashboard/template/default_template', $data);
+	}
+
 	public function tambahNews()
 	{
 		$last_id = $this->db->query("SELECT id_news FROM tbnews ORDER BY id_news DESC LIMIT 1")->result_array();
@@ -249,6 +262,76 @@ class Dashboard extends CI_Controller {
 		}else{
 			$this->session->set_flashdata('notif', '<script>swal("Error", "Data Gagal Dihapus !", "error");</script>');
 			redirect('dashboard/slider'); 
+		}
+	}
+
+	public function tambahGallery()
+	{
+		date_default_timezone_set("Asia/Jakarta");
+		$date = date("Y-m-d");
+		$file = $_FILES['file'];
+		$deskripsi = $this->input->post('deskripsi');
+		$kirim = array(
+			"gambar" => $_FILES['file']['name'],
+			"descrip" => $deskripsi,
+			"descrip_ing" => $deskripsi,
+			"tb_galeri" => 'gallery',
+			"id_table" => '000000',
+			"tanggal" => $date,
+			"slug" => '-',
+			"status" => 'Y'
+		);
+		$insert = $this->db->insert("tbgaleri", $kirim);
+		if ($insert) {
+			move_uploaded_file($_FILES['file']['tmp_name'], "./assets/gallery/" . $_FILES['file']['name']);
+			$this->session->set_flashdata('notif', '<script>swal("Success", "Data Berhasil Disimpan !", "success");</script>');
+			redirect('dashboard/gallery'); 
+		}else{
+			$this->session->set_flashdata('notif', '<script>swal("Error", "Data Gagal Disimpan !", "error");</script>');
+			redirect('dashboard/gallery'); 
+		}
+	}
+
+	public function editGallery()
+	{
+		date_default_timezone_set("Asia/Jakarta");
+		$date = date("Y-m-d");
+		$file = $_FILES['file'];
+		$deskripsi = $this->input->post('deskripsi');
+		$id = $this->input->post('id');
+		$kirim = array(
+			"gambar" => $_FILES['file']['name'],
+			"descrip" => $deskripsi,
+			"descrip_ing" => $deskripsi,
+			"tb_galeri" => 'gallery',
+			"id_table" => '000000',
+			"tanggal" => $date,
+			"slug" => '-',
+			"status" => 'Y'
+		);
+		$this->db->where("id", $id);
+		$update = $this->db->update("tbgaleri", $kirim);
+		if ($update) {
+			move_uploaded_file($_FILES['file']['tmp_name'], "./assets/gallery/" . $_FILES['file']['name']);
+
+			$this->session->set_flashdata('notif', '<script>swal("Success", "Data Berhasil Diubah !", "success");</script>');
+			redirect('dashboard/gallery'); 
+		}else{
+			$this->session->set_flashdata('notif', '<script>swal("Error", "Data Gagal Diubah !", "error");</script>');
+			redirect('dashboard/gallery'); 
+		}
+	}
+
+	public function deleteGallery(){
+		$id = $_GET['id'];
+
+		$delete = $this->db->query("DELETE FROM tbgaleri WHERE id='$id'");
+		if ($delete) {
+			$this->session->set_flashdata('notif', '<script>swal("Success", "Data Berhasil Dihapus !", "success");</script>');
+			redirect('dashboard/gallery'); 
+		}else{
+			$this->session->set_flashdata('notif', '<script>swal("Error", "Data Gagal Dihapus !", "error");</script>');
+			redirect('dashboard/gallery'); 
 		}
 	}
 	

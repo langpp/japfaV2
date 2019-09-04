@@ -109,25 +109,14 @@
 </div>
 </nav>
 <!-- End Navbar -->
-<!--- START CONTENT -->
-<div class="banner_edu">
-    <img src="<?php echo base_url();?>assets/Images/focus_image/kib_banner.jpg" class="img-fluid"><br><br>
-    <p class="wow fadeInUp">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-</div>
-<!--- START NEWS -->
-<div class="header_news">
-    <h3 class="header_text">NEWS</h3>
-</div>
 <div class="container news">
-    <?php if (!empty($news)) {
-      foreach ($news as $dataNews) { ?>
+    <?php if (!empty($gallery)) {
+      foreach ($gallery as $datagallery) { ?>
       <div class="card news">
-        <img src="<?php echo base_url();?>assets/news/<?php echo $dataNews['img'];?>" style="width:120%">
-        <div class="news_text">
-            <h5><?php echo word_limiter($dataNews['judul'],50);?></h5>
-            <p class="title"><?php echo word_limiter($dataNews['deskripsi'],150);?></p>
+        <img src="<?php echo base_url();?>assets/gallery/<?php echo $datagallery['gambar'];?>" style="width:120%">
+        <div class="news_text text-center">
+            <h5><?php echo $datagallery['descrip'];?></h5>
         </div>
-        <a class="btn btn-warning" href="<?php echo base_url();?>detail?tag=news&id=<?php echo $dataNews['id_news'];?>&tab=tbnews&find=id_news">Read More</a>
     </div>
     <?php } } ?>
 </div>

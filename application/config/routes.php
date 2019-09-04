@@ -69,4 +69,5 @@ $route['sportImpact'] = 'Home/sportImpact';
 $route['sport'] = 'Home/sport';
 $route['detail'] = 'Home/detail';
 $route['video'] = 'Home/video';
+$route['gallery'] = 'Home/gallery';
 $route['insertSubscribe'] = 'Home/insertSubscribe';

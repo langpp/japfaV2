@@ -212,6 +212,20 @@ class Home extends CI_Controller {
 		$this->load->view('video', $data);
 	}
 
+	public function gallery()
+	{
+		$send_data = array(
+			'news' => $this->M_home->get_news(),
+			'gallery' => $this->M_home->allGallery(),
+		);
+		$path = "";
+		$data = array(
+			"page" => $this->load("Gallery", $path),
+			"content" =>$this->load->view('gallery_page', $send_data, true)
+		);
+		$this->load->view('gallery_page', $data);
+	}
+
 	public function detail()
 	{
 		error_reporting(0);
