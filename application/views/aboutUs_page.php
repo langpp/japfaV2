@@ -107,8 +107,9 @@
     </div>
   </nav>
   <!-- End Navbar -->
+  <br>
   <!--- START CONTENT -->
-  <div class="container-content-1">
+  <div class="container-content-1 wow fadeInUp">
     <div class="row">
       <div class="col-md narasi">
         <h3 class="wow fadeInUp" id="about_text">About Us</h3>
@@ -122,7 +123,7 @@
       </div>
     </div>
   </div>
-  <div class="container-content-1">
+  <div class="container-content-1 wow fadeInUp">
     <div class="row">
       <div class="col-md narasi">
         <h3 class="wow fadeInUp" id="vision_text">Vision</h3>
@@ -139,22 +140,22 @@
   </div>
   <!--- END CONTENT -->
   <!--- START WORK PRINCIPLE -->
-  <div class="jumbotron-work jumbotron-fluid">
+  <div class="jumbotron-work jumbotron-fluid wow fadeInUp">
     <div class="container">
       <h5 class="display-5">WORK PRINCIPLE</h5>
     </div>
   </div>
-  <div class="work_img">
+  <div class="work_img wow fadeInUp">
     <img class="img-fluid" src="<?php echo base_url(); ?>assets/Images/prinsip_kerja.jpg">
   </div>
   <!--- END WORK PRINCIPLE-->      
   <!--- START NEWS SLIDER -->
-  <div class="jumbotron-2 jumbotron-fluid">
+  <div class="jumbotron-2 jumbotron-fluid wow fadeInUp">
     <div class="container">
       <h5 class="display-5">NEWS</h5>
     </div>
   </div>
-  <div class="container-slider-news">
+  <div class="container-slider-news wow fadeInUp">
     <div class="owl-carousel owl-theme">
       <?php if (!empty($news)) {
         foreach ($news as $dataNews) { ?>

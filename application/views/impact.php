@@ -110,6 +110,7 @@
 </div>
 </nav>
 <!-- End Navbar -->
+<br>
 <!--- START CONTENT -->
 <div class="banner_edu">
     <img src="<?php echo base_url();?>assets/Images/focus_image/impact_banner.jpg" class="img-fluid"><br><br>
@@ -534,7 +535,7 @@
     </svg>
 </div>
 <!--- End Peta Indonesia -->
-<h3 class="wow fadeInUp toc_mainText">Initiatives and Program</h3>
+<!-- <h3 class="wow fadeInUp toc_mainText">Initiatives and Program</h3>
 <br><br>
 <div class="container-program">
     <div class="container-initiatives">
@@ -572,7 +573,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <!--- START INFOGRAPHIC -->
 <h3 class="wow fadeInUp toc_mainText">Total beneficiaries of JAPFA Foundation programs in 2016 - 2018</h3>
 <br><br>
@@ -2458,7 +2459,8 @@
 </div>
 <!--- END INFOGRAPHIC -->
 <!--- START BENEFICIARIES -->  
-<h5 class="stakeholder_text">Stakeholders in collaboration with Japfa Foundation</h5>
+
+<h5 class="stakeholder_text wow fadeInUp">Stakeholders in collaboration with Japfa Foundation</h5>
 <div class="grup_beneficiaries">
     <div class="container">
         <div class="row">
@@ -2546,14 +2548,102 @@
     </div>
 </div>
 </div>
-<!--- END BENEFICIARIES -->       
+<!--- END BENEFICIARIES -->  
+<div class="Beneficiaries_Head wow fadeInUp">     
+    <h3 class="wow fadeInUp toc_mainText" style="visibility: visible; animation-name: fadeInUp;">Initiatives Program of Japfa Foundation</h3><hr><br><br>
+</div>
+<div class="container wow fadeInUp"> 
+   
+  <style> 
+    
+      .container.beneficiaries {
+          padding: 5%;
+      }
+      
+      .row.justify-content-around h4 {
+          color: #f26529;
+      }
+      
+    .merah{ 
+        margin-top: 20px; 
+        border-radius: 10px; 
+        box-shadow: 5px 5px 5px grey;
+        background-color: #e6e6e6;
+        padding: 20px;
+        margin-bottom: 30px;
+    } 
+      
+      .trr{
+          margin-left: 25%;
+      }  
+    .merart{ 
+        background-color: #e6e6e6; 
+        margin-top: 20px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 5px grey;
+        padding: 20px;
+    } 
+  </style>
+    
+    
+  <div class="row justify-content-around"> 
+    <div class="col-12 merah col-md-3"> 
+        <div class="trr">
+            <img class="img-fluid" src="<?php echo base_url();?>assets/Images/Foto_Dampak/logo_edu.png" style="width: 100px;">
+        </div><br>
+        <h4><strong>Education Program</strong></h4><br>
+        <p><strong>Financial Aid Scholarship:</strong><br> 1. Scholarship program<br> 2. Research and cooperation in agribusiness and agro technology sector<br><br>
+        <strong>School Development Program:</strong><br> 1. School-based management in elementary schools<br>2. Development of agricultural education for vocational schools</p>
+    </div> 
+    <div class="col-12 merah col-md-3"> 
+        <div class="trr">
+            <img class="img-fluid" src="<?php echo base_url();?>assets/Images/Foto_Dampak/logo_nutrition.png" style="width: 100px;">
+        </div><br>
+            <h4><strong>Nutrition Improvement Program</strong></h4><br>
+            <p><strong>Partnership for Food security and Nutrition:</strong> 1. INZI and its development<br> 2. Cluster of food security and nutrition<br>
+            <strong>Building Awareness and Education about Nutrition:</strong><br> 1. Nutrition Corner<br> 2. PHBS (Clean and Healthy Living Behaviour<br> 3. Nutrition Education (Stunting and Height Charts<br>
+            <strong>Research and Cooperation in Food Security and Nutrition Sector:</strong><br>1. Nutrition Literacy<br>2.  Protein vs Anemia in young women</p>
+        </div> 
+    <div class="col-12 merah col-md-3">
+        <div class="trr">
+            <img class="img-fluid" src="<?php echo base_url();?>assets/Images/Foto_Dampak/logo_sport.png" style="width: 100px;">
+        </div><br>
+            <h4><strong>Sports Program</strong></h4><br>
+            One of two columns One of two columnsLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
+            proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+    </div> 
+  </div> 
+   <div class="row justify-content-around"> 
+    <div class="col-12 merart col-md-3"> 
+        <div class="trr">
+            <img class="img-fluid" src="<?php echo base_url();?>assets/Images/Foto_Dampak/logo_social.png" style="width: 100px;">
+        </div><br>
+            <h4><strong>Social Strategic</strong></h4><br>
+            <p><strong>Maximizing Community Center  (Griya Daya Guna Paciran):</strong> 1. Inspiration Class<br> 2. English Speaking Club<br> 3. Entrepreneurship Program<br><br>
+            <strong>Youth Organization Assistance:</strong> 1. Paciran - Lamongan<br> 2. Tambun raya – Toba<br><br>
+            <strong>Sponsorships for Nutrition improvement events, sports events, etc</strong></p>
+    </div> 
+    <div class="col-12 merart col-md-3"> 
+        <div class="trr">
+            <img class="img-fluid" src="<?php echo base_url();?>assets/Images/Foto_Dampak/logo_jfrt.png" style="width: 100px;">
+        </div><br>
+            <h4><strong>Disaster Response</strong></h4>
+            <p><br><strong>Establishment of Disaster Response Team (JFRT):<br></strong> 1. Emergency logistics assistance<br> 2. Emergency health services 
+            <strong>Disaster Response:</strong> 1. Lombok Earthquake<br> 2. Tsunami and Earthquake in Palu<br>3.Tsunami in Selat Sunda </p>
+    </div> 
+  </div> 
+</div>     
 <!--- START NEWS SLIDER -->
-<div class="jumbotron-2 jumbotron-fluid">
+<div class="jumbotron-2 jumbotron-fluid wow fadeInUp">
   <div class="container">
     <h5 class="display-5">NEWS</h5>
 </div>
 </div>
-<div class="container-slider-news">
+<div class="container-slider-news wow fadeInUp">
   <div class="owl-carousel owl-theme">
     <?php if (!empty($news)) {
       foreach ($news as $dataNews) { ?>

@@ -110,8 +110,9 @@
     </div>
   </nav>
   <!-- End Navbar -->
+  <br>
   <!--- START CONTENT -->
-  <div class="container-social_impact container-content-1">
+  <div class="container-social_impact container-content-1 wow fadeInUp">
     <div class="bg-image">
       <img src="<?php echo base_url();?>assets/Images/Foto_Dampak/banner_impact_nutrition.jpg" class="img-fluid impact"><br><br>
       <h3 class="wow fadeInUp toc_mainText">Nutrition Improvement Program</h3>
@@ -123,7 +124,7 @@
       <p>To  increase access to nutrition knowledge and fulfillment, especially for children and young women</p>
     </div>
   </div>
-  <div class="container-content-1">
+  <div class="container-content-1 wow fadeInUp">
     <div class="row">
       <div class="col-md narasi">
         <h3 class="wow fadeInUp" id="about_text">1. Raise awarness and educate about nutrition</h3>
@@ -137,7 +138,7 @@
       </div>
     </div>
   </div>
-  <div class="container-content-1">
+  <div class="container-content-1 wow fadeInUp">
     <div class="row">
       <div class="col-md narasi">
         <h3 class="wow fadeInUp" id="about_text">2. Research and partnership in food and nutriton</h3>
@@ -151,7 +152,7 @@
       </div>
     </div>
   </div>
-  <div class="container-content-1">
+  <div class="container-content-1 wow fadeInUp">
     <div class="row">
       <div class="col-md narasi">
         <h3 class="wow fadeInUp" id="about_text">3. Partnership for food resiliency and nutrition improvement</h3>
@@ -166,7 +167,7 @@
       </div>
     </div>
   </div>
-  <div class="container-content-1">
+  <div class="container-content-1 wow fadeInUp">
     <div class="row">
       <div class="col-md narasi">
         <h3 class="wow fadeInUp" id="about_text">4. Push and develop Working Models</h3>
@@ -184,12 +185,12 @@
   <!--- END CONTENT-->
   <!--- END BENEFICIARIES -->       
   <!--- START NEWS SLIDER -->
-  <div class="jumbotron-2 jumbotron-fluid">
+  <div class="jumbotron-2 jumbotron-fluid wow fadeInUp">
     <div class="container">
       <h5 class="display-5">NEWS</h5>
     </div>
   </div>
-  <div class="container-slider-news">
+  <div class="container-slider-news wow fadeInUp">
     <div class="owl-carousel owl-theme">
       <?php if (!empty($news)) {
         foreach ($news as $dataNews) { ?>

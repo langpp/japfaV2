@@ -109,15 +109,15 @@
     </div>
   </nav>
   <!-- End Navbar -->
-
+<br>
   <!-- START CONTENT -->
-  <div class="banner_edu">
+  <div class="banner_edu wow fadeInUp">
     <img src="<?php echo base_url();?>assets/Images/focus_image/banner_edu.jpg" class="img-fluid"><br><br>
     <h3 class="wow fadeInUp toc_mainText">Agriculture Education</h3>
     <hr>
     <p class="wow fadeInUp subText">Untuk program peningkatan pendidikan, fokus kami adalah pada guru dan siswa karena keduanya adalah bagian paling penting dari sekolah yang hebat. Yayasan JAPFA mendukung dengan pelatihan terbaru tentang bagaimana meningkatkan keterampilan mengajar guru (pembelajaran berbasis proyek, proses sertifikasi guru dan sebagainya) sementara juga meningkatkan peran dan fungsi kepala sekolah melalui pelatihan, modul dan seminar</p>
   </div>
-  <div id="image_mbs">
+  <div id="image_mbs wow fadeInUp">
     <div class="kotak_grey">
       <h2 class="wow fadeInUp main_text">Manajemen<br>Berbasis<br>Sekolah</h2>
     </div>
@@ -129,7 +129,7 @@
       - Bantuan Keuangan & Beasiswa
     </p>
   </div>
-  <div id="image_mbs">
+  <div id="image_mbs wow fadeInUp">
     <div class="kotak_grey">
       <h2 class="wow fadeInUp main_text">Program<br>Beasiswa<br>Pendidikan<br>Agrikultur</h2>
     </div>
@@ -141,7 +141,7 @@
       - Kuliah Umum kerjasama antara Kemin Industry Asia Pte Ltd di IPB dan UNSYIAH.<br>
     </p>
   </div>
-  <div id="image_mbs">
+  <div id="image_mbs wow fadeInUp">
     <div class="kotak_grey">
       <h2 class="wow fadeInUp main_text">Grand<br>Design<br>Pendidikan<br>Agrikultur</h2>
     </div>
@@ -186,7 +186,7 @@
   </div>
   <!--- END GRAND DESIGN -->
   <!--- START NEWS SLIDER -->
-  <div class="jumbotron-2 jumbotron-fluid">
+  <div class="jumbotron-2 jumbotron-fluid wow fadeInUp">
     <div class="container">
       <h5 class="display-5">NEWS</h5>
     </div>

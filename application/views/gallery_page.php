@@ -109,7 +109,8 @@
 </div>
 </nav>
 <!-- End Navbar -->
-<div class="container news">
+<br>
+<div class="container news wow fadeInUp">
     <?php if (!empty($gallery)) {
       foreach ($gallery as $datagallery) { ?>
       <div class="card news">

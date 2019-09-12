@@ -109,16 +109,17 @@
 </div>
 </nav>
 <!-- End Navbar -->
+<br>
 <!--- START CONTENT -->
-<div class="banner_edu">
+<div class="banner_edu wow fadeInUp">
     <img src="<?php echo base_url();?>assets/Images/focus_image/kib_banner.jpg" class="img-fluid"><br><br>
     <p class="wow fadeInUp">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
 </div>
 <!--- START NEWS -->
-<div class="header_news">
+<div class="header_news wow fadeInUp">
     <h3 class="header_text">NEWS</h3>
 </div>
-<div class="container news">
+<div class="container news wow fadeInUp">
     <?php if (!empty($news)) {
       foreach ($news as $dataNews) { ?>
       <div class="card news">

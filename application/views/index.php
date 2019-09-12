@@ -141,7 +141,7 @@
 	<!-- End Carousel -->
 	<!--- About Us -->
 	<section>
-		<div class="container">
+		<div class="container wow zoomIn ">
 			<div class="row">
 				<div class="col-md">
 					<h3>About Us</h3>
@@ -157,12 +157,12 @@
 	</section>
 	<!--- End About us -->
 	<!--- START OUR FOCUS SLIDER -->      
-	<div class="jumbotron-1 jumbotron-fluid">
+	<div class="jumbotron-1 jumbotron-fluid wow fadeInUp">
 		<div class="container">
 			<h5 class="display-5">OUR FOCUS</h5>
 		</div>
 	</div>
-	<div class="container-slider">
+	<div class="container-slider wow fadeInUp">
 		<div class="owl-carousel owl-theme">
 			<div class="item">
 				<div class="card" style="width: auto;">
@@ -218,12 +218,12 @@
 	</div>
 	<!--- END OUR FOCUS SLIDER -->
 	<!--- START OUR IMPACT SLIDER -->
-	<div class="jumbotron-1 jumbotron-fluid">
+	<div class="jumbotron-1 jumbotron-fluid wow fadeInUp">
 		<div class="container">
 			<h5 class="display-5">OUR IMPACT</h5>
 		</div>
 	</div>
-	<div class="container-slider">
+	<div class="container-slider wow fadeInUp">
 		<div class="owl-carousel owl-theme">
 			<div class="item">
 				<div class="card" style="width: auto;">
@@ -279,12 +279,12 @@
 	</div>
 	<!--- END OUR IMPACT -->
 	<!--- START NEWS SLIDER -->
-	<div class="jumbotron-2 jumbotron-fluid">
+	<div class="jumbotron-2 jumbotron-fluid wow fadeInUp">
 		<div class="container">
 			<h5 class="display-5">NEWS</h5>
 		</div>
 	</div>
-	<div class="container-slider-news">
+	<div class="container-slider-news wow fadeInUp">
 		<div class="owl-carousel owl-theme">
 			<?php if (!empty($news)) {
 				foreach ($news as $dataNews) { ?>
@@ -302,15 +302,15 @@
 		</div>
 		<!--- End News Container -->
 		<!--- Start Download App -->      
-		<div class="jumbotron jumbotron-fluid text-center">
+		<div class="jumbotron jumbotron-fluid text-center wow fadeInUp">
 			<div class="container-dl-app text-center">
 				<h5>JAPFA FOUNDATION APP DOWNLOAD</h5>
-				<div class="container-fluid">
+				<div class="container">
 					<div class="row">
 						<div class="col-sm content-center"><img class="img-fluid-1" src="<?php echo base_url();?>assets/Images/QR_Code.png" width="160"></div>
 						<h4 class="col-xs" style="margin-left: 0px !important;">OR</h4>
 						<div class="col-sm">
-							<a class="bottom-margin-sm" href="#"><img class="img-fluid-2" src="<?php echo base_url();?>assets/Images/Appstore_logo.png" width="160px"></a>
+							<a class="bottom-margin-sm" href="#"><img class="img-fluid-2" src="<?php echo base_url();?>assets/Images/Appstore_logo.png" width="160px"></a><br>
 							<a class="bottom-margin-sm" href="#"><img class="img-fluid-3" src="<?php echo base_url();?>assets/Images/Google-Play-Store-Logo.png" width="184px"></a>
 						</div>
 					</div>
@@ -319,12 +319,12 @@
 		</div>
 		<!--- End Download App -->
 		<!--- Start News Letter Kolom -->
-		<div class="jumbotron-3 jumbotron-fluid">
+		<div class="jumbotron-3 jumbotron-fluid wow fadeInUp">
 			<div class="container">
 				<h5 class="display-5">NEWSLETTER</h5>
 			</div>
 		</div>
-		<div class="card-nl text-white md-4">
+		<div class="card-nl text-white md-4 wow fadeInUp">
 			<div class="row no-gutters">
 				<div class="card-body">
 					<h5 class="card-title">Newsletter</h5>

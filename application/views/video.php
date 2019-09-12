@@ -125,8 +125,8 @@
 </div>
 </nav>
 <!-- End Navbar -->
-
-<div class="container news">
+<br>
+<div class="container news wow fadeInUp">
   <?php if (!empty($video)) {
       foreach ($video as $dataVideo) { ?>
   <div class="card news">
@@ -140,12 +140,12 @@
 </div>
 
 <!--- START NEWS SLIDER -->
-<div class="jumbotron-2 jumbotron-fluid">
+<div class="jumbotron-2 jumbotron-fluid wow fadeInUp">
   <div class="container">
     <h5 class="display-5">NEWS</h5>
 </div>
 </div>
-<div class="container-slider-news">
+<div class="container-slider-news wow fadeInUp">
   <div class="owl-carousel owl-theme">
     <?php if (!empty($news)) {
       foreach ($news as $dataNews) { ?>

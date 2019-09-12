@@ -104,11 +104,11 @@
     </div>
   </nav>
   <!-- End Navbar -->
-
+  <br>
   <!-- START CONTENT -->
   <?php if (!empty($isi)) {
     foreach ($isi as $detailNews) { ?>
-    <div class="banner_edu">
+    <div class="banner_edu wow fadeInUp">
       <img src="<?php echo base_url();?>assets/news/<?php echo $detailNews['img'];?>" class="img-fluid"><br><br>
       <h3 class="wow fadeInUp toc_mainText"><?php echo $detailNews['judul'];?></h3>
       <hr>
@@ -117,12 +117,12 @@
     <?php } } ?>
     <!--- END CONTENT-->
     <!--- START NEWS SLIDER -->
-    <div class="jumbotron-2 jumbotron-fluid">
+    <div class="jumbotron-2 jumbotron-fluid wow fadeInUp">
       <div class="container">
         <h5 class="display-5">NEWS</h5>
       </div>
     </div>
-    <div class="container-slider-news">
+    <div class="container-slider-news wow fadeInUp">
       <div class="owl-carousel owl-theme">
         <?php if (!empty($news)) {
           foreach ($news as $dataNews) { ?>

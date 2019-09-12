@@ -109,6 +109,7 @@
     </div>
   </nav>
   <!-- End Navbar -->
+  <br>
   <!-- START CONTENT -->
   <div class="banner_edu">
     <img src="<?php echo base_url();?>assets/Images/focus_image/sport_banner.jpg" class="img-fluid"><br><br>
@@ -165,12 +166,12 @@
     </div>
     <!--- END GRAND DESIGN -->
     <!--- START NEWS SLIDER -->
-    <div class="jumbotron-2 jumbotron-fluid">
+    <div class="jumbotron-2 jumbotron-fluid wow fadeInUp">
       <div class="container">
         <h5 class="display-5">NEWS</h5>
       </div>
     </div>
-    <div class="container-slider-news">
+    <div class="container-slider-news wow fadeInUp">
       <div class="owl-carousel owl-theme">
         <?php if (!empty($news)) {
           foreach ($news as $dataNews) { ?>
