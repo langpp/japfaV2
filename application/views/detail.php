@@ -35,7 +35,7 @@
 </head>
 <body>
   <!--- Start menu Bahasa -->
-  <section>
+  <!-- <section>
     <div class="container-fluid">
       <h6></h6>
       <div class="checkbox-btn">
@@ -43,7 +43,7 @@
         <div><span class="slide"></span></div>
       </div>
     </div>
-  </section>
+  </section> -->
   <!-- Start Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark p-0" style="background-color: #f26529">
     <div class="row mx-md-n5">
@@ -82,9 +82,9 @@
           <li class="nav-item active">
             <a class="nav-link" href="<?php echo base_url();?>news">News</a>
           </li>
-          <li class="nav-item active">
+         <!--  <li class="nav-item active">
             <a class="nav-link" href="#">Event</a>
-          </li>
+          </li> -->
           <li class="nav-item dropdown active">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Scholarship</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">

@@ -20,6 +20,7 @@
                     <div class="form-group">
                       <label>Foto</label>
                       <input type="file" name="file" class="form-control" required="">
+                      <small>* Gambar harus beresolusi 1200px x 600px</small>
                     </div>
                   </div>
                   <div class="col-lg-12">
@@ -84,6 +85,7 @@
                                 <label>Foto</label>
                                 <input type="file" name="file" class="form-control" required="">
                                 <small><?php echo $slider['file']; ?></small>
+                                <small>* Gambar harus beresolusi 1200px x 600px</small>
                               </div>
                             </div>
                             <div class="col-lg-12">

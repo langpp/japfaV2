@@ -35,7 +35,7 @@
 </head>
 <body>
     <!--- Start menu Bahasa -->
-    <section>
+    <!-- <section>
         <div class="container">
         <div class="ct-topbar float-right">
             <ul class="list-unstyled list-inline ct-topbar__list">
@@ -48,7 +48,8 @@
             </ul>
         </div>
         </div>
-    </section><br><br>
+    </section> -->
+    <br><br>
     <!-- Start Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark p-0" style="background-color: #f26529">
       <div class="row mx-md-n5">
@@ -87,9 +88,9 @@
     <li class="nav-item active">
       <a class="nav-link" href="<?php echo base_url();?>news">News</a>
   </li>
-  <li class="nav-item active">
+  <!-- <li class="nav-item active">
       <a class="nav-link" href="#">Event</a>
-  </li>
+  </li> -->
   <li class="nav-item dropdown active">
       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Scholarship</a>
       <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -125,8 +126,8 @@
       <div class="card news">
         <img src="<?php echo base_url();?>assets/news/<?php echo $dataNews['img'];?>" style="width:120%">
         <div class="news_text">
-            <h5><?php echo word_limiter($dataNews['judul'],50);?></h5>
-            <p class="title"><?php echo word_limiter($dataNews['deskripsi'],150);?></p>
+            <h5><?php echo character_limiter($dataNews['judul'],50);?></h5>
+            <p class="title"><?php echo character_limiter($dataNews['deskripsi'],100);?></p>
         </div>
         <a class="btn btn-warning" href="<?php echo base_url();?>detail?tag=news&id=<?php echo $dataNews['id_news'];?>&tab=tbnews&find=id_news">Read More</a>
     </div>
